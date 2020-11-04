@@ -1,81 +1,73 @@
-# sent_id = 1									
-# text = என் பையன்கள் வந்தார்கள் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
-1	என்	என்	PRON	_	NumForm=Digit	2	nmod:poss	2:nmod:poss	_
+# sent_id = test-1
+# text = என் பையன்கள் வந்தார்கள் .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
+1	என்	என்	PRON	_	NumForm=Digit	2	nmod	2:nmod	_
 2	பையன்கள்	பையன்	NOUN	_	Animacy=Anim|Case=Nom|Gender=Com|Number=Plur|Person=3	3	nsubj	3:nsubj	_
 3	வந்தார்கள்	வா	VERB	_	Animacy=Anim|Gender=Com|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	_
-									
-# sent_id = 2									
-# text = அங்கு நிறைய வீடுகள் இருக்கின்றன .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
-1	அங்கு	அங்கு	ADV	_	NumForm=Digit	4	obl:pmod	4:obl:pmod	_
+
+# sent_id = test-2
+# text = அங்கு நிறைய வீடுகள் இருக்கின்றன .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
+1	அங்கு	அங்கு	ADV	_	NumForm=Digit	4	obl	4:obl	_
 2	நிறைய	நிறைய	ADJ	_	NumForm=Digit	3	amod	3:amod	_
 3	வீடுகள்	வீடு	NOUN	_	Case=Nom|Gender=Neut|Number=Plur|Person=3	4	nsubj	4:nsubj	_
 4	இருக்கின்றன	இரு	VERB	_	Gender=Com|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	_
-									
-# sent_id = 3									
-# text = இரண்டு நாய்கள் வந்தது .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-3
+# text = இரண்டு நாய்கள் வந்தது .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	இரண்டு	இரண்டு	NUM	_	NumForm=Digit	2	nummod	2:nummod	_
 2	நாய்கள்	நாய்	NOUN	_	Case=Nom|Gender=Neut|Number=Plur|Person=3	3	nsubj	3:nsubj	_
 3	வந்தது	வா	VERB	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	_
-									
-# sent_id = 4									
-# text = இரண்டு நாய்கள் வந்தன .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-4
+# text = இரண்டு நாய்கள் வந்தன .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	இரண்டு	இரண்டு	NUM	_	NumForm=Digit	2	nummod	2:nummod	_
 2	நாய்கள்	நாய்	NOUN	_	Case=Nom|Gender=Neut|Number=Plur|Person=3	3	nsubj	3:nsubj	_
 3	வந்தன	வா	VERB	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	_
-									
-# sent_id = 5									
-# text = குமார் மாணவன் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-5
+# text = குமார் மாணவன் .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	குமார்	குமார்	PROPN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	2:nsubj	_
 2	மாணவன்	மாணவன்	NOUN	_	Gender=Neut|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	_
-									
-# sent_id = 6									
-# text = குமார் மாணவன் ஆனான் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
-1	குமார்	குமார்	PROPN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	2:nsubj	_
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	0	root	0:root	_
-3	ஆனான்	ஆனான்	VERB	_	Gender=Neut|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	_
-									
-# sent_id = 7									
-# text = குமார் மாணவன் ஆனான் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-6
+# text = குமார் மாணவன் ஆனான் .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	குமார்	குமார்	PROPN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	3:nsubj	_
 2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	obj	3:obj	_
 3	ஆனான்	ஆனான்	VERB	_	Gender=Neut|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	_
-									
-# sent_id = 8									
-# text = குமார் ராமனை தலைவன் ஆக்கினான் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-7
+# text = குமார் ராமனை தலைவன் ஆக்கினான் .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	குமார்	குமார்	PROPN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	nsubj	4:nsubj	_
 2	ராமனை	ராமனை	PROPN	_	Case=Nom|Gender=Com|Number=Sing|Person=3|Polite=Form	4	obj	4:obj	_
 3	தலைவன்	தலைவன்	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	xcomp	4:xcomp	_
 4	ஆக்கினான்	ஆகு	VERB	_	Gender=Com|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Polite=Form|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	_
-									
-# sent_id = 9									
-# text = குமார் தண்ணீர் கேட்டான் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-8
+# text = குமார் தண்ணீர் கேட்டான் .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	குமார்	குமார்	PROPN	_	_	3	nsubj	3:nsubj	_
 2	தண்ணீர்	தண்ணீர்	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	obj	3:obj	_
 3	கேட்டான்	கேள்	VERB	_	Gender=Com|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	_
-									
-# sent_id = 10									
-# text = பையன் சாவியால் கதவைத் திறந்தான் .									
-# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann									
+
+# sent_id = test-9
+# text = பையன் சாவியால் கதவைத் திறந்தான் .
+# source = A Grammar of Modern Tamil Grammar by Thomas Lehmann
 1	பையன்	பையன்	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	nsubj	4:nsubj	_
-2	சாவியால்	சாவி	NOUN	_	Case=Gen|Gender=Com|Number=Sing|Person=3|Polite=Form	4	obl:inst	4:obl:inst	_
+2	சாவியால்	சாவி	NOUN	_	Case=Gen|Gender=Com|Number=Sing|Person=3|Polite=Form	4	obl	4:obl	_
 3	கதவைத்	கதவை	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Person=3	4	obj	4:obj	_
 4	திறந்தான்	திற	VERB	_	Gender=Neut|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	_
