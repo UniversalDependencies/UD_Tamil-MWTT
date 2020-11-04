@@ -1,6 +1,8 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+MWTT - Modern Written Tamil Treebank has sentences taken primarily from a text called "A Grammar of Modern Tamil by Thomas Lehmann (1993). The main purpose of this treebank to document modern written syntactical structures of Tamil.
+The current release has 500 sentences of various lengths.
+
 
 
 # Introduction
@@ -10,12 +12,14 @@
 
 # Acknowledgments
 
-...
+We thank Thomas Lehmann for allowing us to use setences from his text. 
+We also would like to thank our institutions, 
+University of Hyderabad, India  
+and National Language Processing Centre, University of Moratuwa, Sri Lanka.
 
 ## References
 
-* (citation)
-
+Lehmann, T. (1993). A grammar of modern Tamil. Pondicherry Institute of Linguistics and Culture.
 
 # Changelog
 
