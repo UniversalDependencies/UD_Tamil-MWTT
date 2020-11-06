@@ -453,17 +453,6 @@
 5	செய்தான்	செய்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=ceytāṉ|LTranslit=cey
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	5:punct	Translit=.|LTranslit=.
 
-# sent_id = 47
-# text = வெயிலால் குமார் வரவில்லை .
-# translit = veyilāl kumār varavillai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	வெயிலால்	வெயில்	NOUN	_	Case=Ins|Number=Sing|Person=3	3	obl	3:obl	Translit=veyilāl|LTranslit=veyil
-2	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	3:nsubj	Translit=kumār|LTranslit=kumār
-3-4	வரவில்லை	_	_	_	_	_	_	_	Translit=varavillai
-3	வர	வா	VERB	_	VerbForm=Inf	0	root	0:root	Translit=vara|LTranslit=vā
-4	இல்லை	இல்லை	AUX	_	Polarity=Neg	3	aux	3:aux	Translit=illai|LTranslit=illai
-5	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
-
 # sent_id = 48
 # text = மழையால் பயிர் நன்றாக வளர்ந்தது .
 # translit = maḻaiyāl payir naṉṟāka vaḷarntatu .
@@ -636,19 +625,6 @@
 4	புலியிடமிருந்து	புலி	NOUN	_	Case=Abl|Number=Sing|Person=3	5	obl	5:obl	Translit=puliyiṭamiruntu|LTranslit=puli
 5	காப்பாற்றினான்	காப்பாற்று	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=kāppāṟṟiṉāṉ|LTranslit=kāppāṟṟu
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	5:punct	Translit=.|LTranslit=.
-
-# sent_id = 65
-# text = ஆசிரியர் மாணவர்களிலிருந்து ஒரு நல்லவனை தேர்ந்தெடுத்தார் .
-# translit = āciriyar māṇavarkaḷiliruntu oru nallavaṉai tērnteṭuttār .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	ஆசிரியர்	ஆசிரியர்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	5:nsubj	Translit=āciriyar|LTranslit=āciriyar
-2	மாணவர்களிலிருந்து	மாணவர்	NOUN	_	Case=Abl|Number=Plur	5	obl	5:obl	Translit=māṇavarkaḷiliruntu|LTranslit=māṇavar
-3	ஒரு	ஒன்று	NUM	_	_	4	nummod	4:nummod	Translit=oru|LTranslit=oṉṟu
-4	நல்லவனை	நல்லவன்	NOUN	_	Case=Acc|Number=Sing|Person=3	5	obj	5:obj	Translit=nallavaṉai|LTranslit=nallavaṉ
-5-6	தேர்ந்தெடுத்தார்	_	_	_	_	_	_	_	Translit=tērnteṭuttār
-5	தேர்ந்து	தேர்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	0:root	Translit=tērntu|LTranslit=tēr
-6	எடுத்தார்	எடு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	5	aux	5:aux	Translit=eṭuttār|LTranslit=eṭu
-7	.	.	PUNCT	_	PunctType=Peri	5	punct	5:punct	Translit=.|LTranslit=.
 
 # sent_id = 66
 # text = மந்திரியிலிருந்து எல்லோரும் லஞ்சம் வாங்குகிறார்கள் .
@@ -892,36 +868,6 @@
 3	மாட்டேன்	மாட்டு	AUX	_	Number=Sing|Person=1|Polarity=Neg	2	aux	2:aux	Translit=māṭṭēṉ|LTranslit=māṭṭu
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
 
-# sent_id = 92
-# text = நான் விடவில்லை .
-# translit = nāṉ viṭavillai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நான்	நான்	PRON	_	Number=Sing|Person=1	2	nsubj	2:nsubj	Translit=nāṉ|LTranslit=nāṉ
-2-3	விடவில்லை	_	_	_	_	_	_	_	Translit=viṭavillai
-2	விட	விடு	VERB	_	VerbForm=Inf	0	root	0:root	Translit=viṭa|LTranslit=viṭu
-3	இல்லை	இல்லை	AUX	_	Polarity=Neg|VerbForm=Fin	2	aux:neg	2:aux:neg	Translit=illai|LTranslit=illai
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 93
-# text = நீ விடவில்லை .
-# translit = nī viṭavillai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நீ	நீ	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2	2	nsubj	2:nsubj	Translit=nī|LTranslit=nī
-2-3	விடவில்லை	_	_	_	_	_	_	_	Translit=viṭavillai
-2	விட	விடு	VERB	_	VerbForm=Inf	0	root	0:root	Translit=viṭa|LTranslit=viṭu
-3	இல்லை	இல்லை	AUX	_	Polarity=Neg|VerbForm=Fin	2	aux:neg	2:aux:neg	Translit=illai|LTranslit=illai
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 94
-# text = அவன் விடவில்லை .
-# translit = avaṉ viṭavillai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	அவன்	அவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	2:nsubj	Translit=avaṉ|LTranslit=avaṉ
-2-3	விடவில்லை	_	_	_	_	_	_	_	Translit=viṭavillai
-2	விட	விடு	VERB	_	VerbForm=Inf	0	root	0:root	Translit=viṭa|LTranslit=viṭu
-3	இல்லை	இல்லை	AUX	_	Polarity=Neg|VerbForm=Fin	2	aux:neg	2:aux:neg	Translit=illai|LTranslit=illai
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
 # sent_id = 95
 # text = அரசன் வாழ்க !
 # translit = aracaṉ vāḻka !
@@ -1148,90 +1094,6 @@
 2	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	0:root	Translit=vantu|LTranslit=vā
 3	உள்ளேன்	உள்	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	aux:neg	2:aux:neg	Translit=uḷḷēṉ|LTranslit=uḷ
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 118
-# text = நான் மாணவன் இல்லை .
-# translit = nāṉ māṇavaṉ illai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நான்	நான்	PRON	_	Number=Sing|Person=1	2	nsubj	2:nsubj	Translit=nāṉ|LTranslit=nāṉ
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=māṇavaṉ|LTranslit=māṇavaṉ
-3	இல்லை	இல்லை	AUX	_	Polarity=Neg	2	aux	2:aux	Translit=illai|LTranslit=illai
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 119
-# text = நீ மாணவன் இல்லை .
-# translit = nī māṇavaṉ illai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நீ	நீ	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2	2	nsubj	2:nsubj	Translit=nī|LTranslit=nī
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=māṇavaṉ|LTranslit=māṇavaṉ
-3	இல்லை	இல்லை	AUX	_	Polarity=Neg	2	aux	2:aux	Translit=illai|LTranslit=illai
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 120
-# text = நீ மாணவன் அல்ல .
-# translit = nī māṇavaṉ alla .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நீ	நீ	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2	2	nsubj	2:nsubj	Translit=nī|LTranslit=nī
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=māṇavaṉ|LTranslit=māṇavaṉ
-3	அல்ல	அல்ல	AUX	_	Polarity=Neg	2	aux	2:aux	Translit=alla|LTranslit=alla
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 121
-# text = நான் மாணவன் அல்ல .
-# translit = nāṉ māṇavaṉ alla .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நான்	நான்	PRON	_	Number=Sing|Person=1	2	nsubj	2:nsubj	Translit=nāṉ|LTranslit=nāṉ
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=māṇavaṉ|LTranslit=māṇavaṉ
-3	அல்ல	அல்ல	AUX	_	Polarity=Neg	2	aux	2:aux	Translit=alla|LTranslit=alla
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 122
-# text = அவன் மாணவன் இல்லை .
-# translit = avaṉ māṇavaṉ illai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	அவன்	அவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	2:nsubj	Translit=avaṉ|LTranslit=avaṉ
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=māṇavaṉ|LTranslit=māṇavaṉ
-3	இல்லை	இல்லை	AUX	_	Polarity=Neg	2	aux	2:aux	Translit=illai|LTranslit=illai
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 123
-# text = அவன் மாணவன் அல்ல .
-# translit = avaṉ māṇavaṉ alla .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	அவன்	அவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	2:nsubj	Translit=avaṉ|LTranslit=avaṉ
-2	மாணவன்	மாணவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=māṇavaṉ|LTranslit=māṇavaṉ
-3	அல்ல	அல்ல	AUX	_	Polarity=Neg	2	aux	2:aux	Translit=alla|LTranslit=alla
-4	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
-# sent_id = 124
-# text = நேற்று குமார் வீட்டில் இல்லை .
-# translit = nēṟṟu kumār vīṭṭil illai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நேற்று	நேற்று	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmod	4:obl:tmod	Translit=nēṟṟu|LTranslit=nēṟṟu
-2	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=kumār|LTranslit=kumār
-3	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:loc	4:obl:loc	Translit=vīṭṭil|LTranslit=vīṭu
-4	இல்லை	இல்லை	VERB	_	_	0	root	0:root	Translit=illai|LTranslit=illai
-5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
-
-# sent_id = 125
-# text = இன்று குமார் வீட்டில் இல்லை .
-# translit = iṉṟu kumār vīṭṭil illai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	இன்று	இன்று	ADV	_	_	4	obl:tmod	4:obl:tmod	Translit=iṉṟu|LTranslit=iṉṟu
-2	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=kumār|LTranslit=kumār
-3	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:loc	4:obl:loc	Translit=vīṭṭil|LTranslit=vīṭu
-4	இல்லை	இல்லை	VERB	_	_	0	root	0:root	Translit=illai|LTranslit=illai
-5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
-
-# sent_id = 126
-# text = நாளை குமார் வீட்டில் இல்லை .
-# translit = nāḷai kumār vīṭṭil illai .
-# source = A Grammar of Modern Tamil Grammar (Book)
-1	நாளை	நாளை	ADV	_	_	4	obl:tmod	4:obl:tmod	Translit=nāḷai|LTranslit=nāḷai
-2	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=kumār|LTranslit=kumār
-3	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:loc	4:obl:loc	Translit=vīṭṭil|LTranslit=vīṭu
-4	இல்லை	இல்லை	VERB	_	_	0	root	0:root	Translit=illai|LTranslit=illai
-5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
 
 # sent_id = 127
 # text = குமார் பணமில்லாமல் வந்தான் .
@@ -1679,4 +1541,3 @@
 1	யாராவது	யார்	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	2:nsubj	Translit=yārāvatu|LTranslit=yār
 2	வருவார்கள்	வா	VERB	_	Gender=Com|Number=Plur|Person=3|Tense=Fut	0	root	0:root	Translit=varuvārkaḷ|LTranslit=vā
 3	.	.	PUNCT	_	PunctType=Peri	2	punct	2:punct	Translit=.|LTranslit=.
-
