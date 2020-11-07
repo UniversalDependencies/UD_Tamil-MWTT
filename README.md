@@ -1,6 +1,6 @@
 # Summary
 
-MWTT - Modern Written Tamil Treebank has sentences taken primarily from a text called "A Grammar of Modern Tamil by Thomas Lehmann (1993). This initial release has 536 sentences of various lengths.
+MWTT - Modern Written Tamil Treebank has sentences taken primarily from a text called "A Grammar of Modern Tamil by Thomas Lehmann (1993). This initial release has 536 sentences of various lengths, and all of these are added as the test set.
 
 
 # Introduction
