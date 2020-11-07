@@ -33,10 +33,10 @@ Lehmann, T. (1993). A grammar of modern Tamil. Pondicherry Institute of Linguist
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: modern writin Tamil
+Genre: book
 Lemmas: converted from manual
 UPOS: converted from manual
-XPOS: none
+XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
 Contributors: K, Sarveswaran; Krishnamurthy, Parameswari; Balasubramani, Keerthana
