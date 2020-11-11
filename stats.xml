@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>534</sentences><tokens>2536</tokens><words>2583</words><fused>42</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>534</sentences><tokens>2536</tokens><words>2583</words><fused>42</fused></test>
+  </size>
+  <lemmas unique="452" /><!-- ., குமார், வா, இரு, ஒன்று, நான், வீடு, இந்த, போ, கொடு, அவன், அந்த, ராஜா, தான், வேண்டு -->
+  <forms unique="841" /><!-- ., குமார், ஒரு, குமாருக்கு, வந்தான், நான், இந்த, இருக்கிறது, இருக்கிறான், அந்த, ?, நேற்று, வீடு, வேண்டும், அவன் -->
+  <fusions unique="40" /><!-- வந்திருக்கிறான், அடிக்கப்பட்டான், அடித்துக்கொண்டான், அடுத்தாற்போல, இவ்விரண்டு, உட்கார்ந்திருக்கிறான், உட்கார்ந்துகொண்டிருக்கிறான், எழுதியிருந்தான், ஏறிக்கொண்டுவரும், கட்டுப்பாட்டுப்படி, கற்றுக்கொண்டான், கஷ்டப்படுகிறான், கொடுத்தாயிற்று, கொண்டிருக்கிறது, சந்தோஷப்படுகிறது -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">39</tag><!-- நல்ல, பெரிய, சிறிய, அடுத்த, அழகிய, இல்லாத, சில, நிறைய, இத்தனை, இரண்டு -->
+    <tag name="ADP">68</tag><!-- வரை, மேலே, போல, மேல், உள்ளே, எதிரே, கீழே, பற்றி, பின், மாதிரி -->
+    <tag name="ADV">150</tag><!-- இப்போது, இங்கே, நாளை, இன்று, மட்டும், வக்கீல், மிகவும், அங்கே, எப்போது, நன்று -->
+    <tag name="AUX">84</tag><!-- இரு, வேண்டு, கொள், விடு, வா, மாட்டு, வை, கூடு, முடி, ஆகு -->
+    <tag name="CCONJ">1</tag><!-- அல்லது -->
+    <tag name="DET">50</tag><!-- இந்த, அந்த -->
+    <tag name="NOUN">579</tag><!-- வீடு, ராஜா, நேற்று, அப்பா, பையன், பரிசு, குழந்தை, மந்திரி, வேலை, மணி -->
+    <tag name="NUM">103</tag><!-- ஒன்று, ஐந்து, இரண்டு, மூன்று, ஆயிரம், பத்து, ஆறு, இன்னொன்று, ஒவ்வொரு, நான்கு -->
+    <tag name="PART">2</tag><!-- தான் -->
+    <tag name="PRON">169</tag><!-- நான், அவன், தான், இது, நீங்கள், நீ, எல்லோரும், அவள், அது, எங்கள் -->
+    <tag name="PROPN">290</tag><!-- குமார், அமெரிக்கா, கமலா, ராமன் -->
+    <tag name="PUNCT">534</tag><!-- ., ?, ! -->
+    <tag name="VERB">514</tag><!-- வா, இரு, போ, கொடு, சாப்பிடு, செய், கேள், பேசு, வாங்கு, அடி -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="38">
+    <feat name="AdpType" value="Post" upos="ADP">65</feat><!-- மேலே, மேல், வரை, அப்புறம், கீழே, பற்றி, மாதிரி, முதல், வரைக்கும், வரையில் -->
+    <feat name="Animacy" value="Anim" upos="VERB">1</feat><!-- வாங்கள் -->
+    <feat name="Case" value="Abl" upos="NOUN">7</feat><!-- அப்பாவிடமிருந்து, கோயிலிலிருந்து, நெருப்பிலிருந்து, புலியிடமிருந்து, மந்திரியிலிருந்து, மரத்திலிருந்து, வெளிநாட்டிலிருந்து -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">104</feat><!-- குமாரை, தன்னை, ராஜாவை, என்னை, வீட்டை, இதை, கடிதத்தை, கதவைத், பன்றியை, பழத்தை -->
+    <feat name="Case" value="Ben" upos="NOUN,PRON">4</feat><!-- அப்பாவுக்காகச், தனக்காக, பையனுக்காகப், வேலைக்காக -->
+    <feat name="Case" value="Com" upos="NOUN,PROPN">11</feat><!-- அன்போடு, ஆத்திரத்தோடு, உதவியோடு, குமாரோடு, சட்டையோடு, தெருவோடு, நேரத்தோடு, பேனாவோடு, மனைவியோடு, மாதத்தோடு -->
+    <feat name="Case" value="Dat" upos="ADV,NOUN,PRON,PROPN,VERB">148</feat><!-- குமாருக்கு, வீட்டுக்கு, குழந்தைக்கு, மணிக்கு, நாளைக்கு, ஊருக்கு, குமாருக்குத், குமாருக்குப், அப்பாவுக்கு, அவனுக்கு -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON,PROPN">31</feat><!-- தன், என், எங்கள், அவனுடைய, உன், அப்பாவின், அவன், உங்கள், குமாரது, குமாருடையது -->
+    <feat name="Case" value="Ins" upos="NOUN,PROPN">10</feat><!-- அப்பாவால், விறகால், அனுபவத்தால், கத்தியால், குமாரால், சாவியால், மண்ணால், மழையால் -->
+    <feat name="Case" value="Loc" upos="NOUN,PRON,PROPN">45</feat><!-- நாற்காலியில், வீட்டில், கூட்டத்தில், அப்பாவிடம், அவனிடம், காலத்தில், வயதில், அறையில், ஆபிசில், இராமேஷ்வரத்தில் -->
+    <feat name="Case" value="Nom" upos="ADV,NOUN,NUM,PRON,PROPN,VERB">667</feat><!-- குமார், நேற்று, வீடு, பரிசு, அவன், ஐந்து, மந்திரி, பையன், பணம், எல்லோரும் -->
+    <feat name="Gender" value="Com" upos="ADV,AUX,PRON,VERB">181</feat><!-- வேண்டும், கொடுத்தார், வந்தார்கள், தன், தன்னை, நீ, என், எங்கள், என்னை, நீங்கள் -->
+    <feat name="Gender" value="Fem" upos="ADJ,PRON,VERB">6</feat><!-- அழகியவள், அவள், இருக்கிறாள், இவள், பாடினாள், வெறுக்கிறாள் -->
+    <feat name="Gender" value="Masc" upos="AUX,NOUN,PRON,VERB">256</feat><!-- வந்தான், இருக்கிறான், அவன், சாப்பிட்டான், உட்கார்ந்தான், பேசினான், இருந்தான், கேட்டான், போனான், வாங்கினான் -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,PRON,VERB">108</feat><!-- இருக்கிறது, வரவில்லை, வந்தது, அது, இது, வந்தன, இதை, இருக்கின்றன, ஆயிற்று, இதைப் -->
+    <feat name="Mood" value="Cnd" upos="VERB">1</feat><!-- தொட்டால் -->
+    <feat name="Mood" value="Imp" upos="VERB">21</feat><!-- வா, வேண்டாம், போடு, அதுக்கு, எண்ணு, கொடுங்கள், சாப்பிடு, போ, வாங்கள், வாங்கு -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">16</feat><!-- வரவில்லை, ஆயிற்று, கொடுக்கவில்லை, செய்யவில்லை, புரியவில்லை, பேசமாட்டேன், பேசவில்லை, போதும், வரமாட்டான், வாங்கவில்லை -->
+    <feat name="Mood" value="Opt" upos="VERB">1</feat><!-- வாழ்க -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">115</feat><!-- வந்தார்கள், எல்லோரும், வரவில்லை, எங்கள், நீங்கள், பையன்கள், அவர்கள், வந்தன, இருக்கின்றன, இருக்கிறார்கள் -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">1392</feat><!-- குமார், குமாருக்கு, வந்தான், நான், இருக்கிறது, இருக்கிறான், நேற்று, வீடு, வேண்டும், அவன் -->
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- வேறொன்று, வேறொரு -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">4</feat><!-- இரண்டாவது, இரண்டாம், இரண்டே -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">77</feat><!-- நான், என், எங்கள், என்னை, நாங்கள், எழுதினேன், போனேன், போவோம், மாட்டேன், வாங்கினேன் -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">45</feat><!-- நீ, வா, நீங்கள், உங்களுக்கு, உங்களை, உன், போடு, வேண்டாம், அடித்தீர்கள், அதுக்கு -->
+    <feat name="Person" value="3" upos="ADJ,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">1315</feat><!-- குமார், குமாருக்கு, வந்தான், இருக்கிறது, இருக்கிறான், நேற்று, வீடு, வேண்டும், அவன், பரிசு -->
+    <feat name="Polarity" value="Neg" upos="AUX,VERB">39</feat><!-- வா, கூடாது, வேண்டாம், கிடையாது, போடு, மாட்டான், அதுக்கு, அனுப்பாமல், ஆகாது, எண்ணு -->
+    <feat name="Polarity" value="Pos" upos="ADV,AUX,NOUN,VERB">85</feat><!-- வந்து, உண்டு, வரவில்லை, கொண்டு, நிமிர்ந்து, படித்து, போய், ஆயிற்று, உட்கார்ந்து, கிடைத்து -->
+    <feat name="Polite" value="Form" upos="AUX,PRON,PUNCT,VERB">24</feat><!-- கொடுத்தார், அவர், ., அடித்தீர்கள், இருக்கிறார், இவர், கோபப்படுவார், பிறந்தார், வந்தார், வந்தார்கள் -->
+    <feat name="PunctType" value="Peri" upos="PUNCT">515</feat><!-- . -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">61</feat><!-- வேண்டும், இருப்பான், பிடிக்கும், வருவான், வருவார்கள், செய்வான், போவோம், முடியும், வரும், இருக்கும் -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">239</feat><!-- வந்தான், கொடுத்தார், வந்தார்கள், சாப்பிட்டான், உட்கார்ந்தான், பேசினான், இருந்தான், கேட்டான், போனான், வந்தது -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">107</feat><!-- இருக்கிறது, இருக்கிறான், செய்கிறான், வருகிறான், இருக்கின்றன, இருக்கிறார்கள், ஓடுகிறது, தூங்குகிறான், தேடுகிறான், தொங்குகிறது -->
+    <feat name="VerbForm" value="Conv" upos="ADV,AUX,VERB">65</feat><!-- வந்து, கொண்டு, நிமிர்ந்து, படித்து, போய், உட்கார்ந்து, கிடைத்து, கொடுத்து, செய்து, அனுப்பாமல் -->
+    <feat name="VerbForm" value="Fin" upos="AUX,NOUN,VERB">38</feat><!-- உண்டு, வரவில்லை, ஆயிற்று, வந்தால், வரட்டும், ஏறலாம், கேட்கலாம், கொடுக்கவில்லை, கொடுத்தால், சரியில்லையாம் -->
+    <feat name="VerbForm" value="Inf" upos="VERB">48</feat><!-- வர, அடிக்கப், அடிக்கப்பட்டான், எடுக்க, கேட்க, சாப்பிட, செய்ய, பேச, முடிக்க, அடிக்க -->
+    <feat name="VerbForm" value="Part" upos="VERB">6</feat><!-- சொன்ன, தகுந்த, போதாத, வந்த, வாங்கிய, வேண்டிய -->
+    <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- அடிக்கப்பட்டான் -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="44">
+    <dep name="acl">13</dep>
+    <dep name="acl:relcl">2</dep>
+    <dep name="advcl">34</dep>
+    <dep name="advcl:cond">4</dep>
+    <dep name="advmod">89</dep>
+    <dep name="advmod:emph">2</dep>
+    <dep name="amod">46</dep>
+    <dep name="aux">80</dep>
+    <dep name="aux:neg">3</dep>
+    <dep name="aux:pass">1</dep>
+    <dep name="case">66</dep>
+    <dep name="cc">2</dep>
+    <dep name="compound">5</dep>
+    <dep name="compound:nv">19</dep>
+    <dep name="compound:redup">1</dep>
+    <dep name="conj">4</dep>
+    <dep name="dep">2</dep>
+    <dep name="det">50</dep>
+    <dep name="fixed">2</dep>
+    <dep name="iobj">25</dep>
+    <dep name="iobj:loc">2</dep>
+    <dep name="mark">1</dep>
+    <dep name="nmod">9</dep>
+    <dep name="nmod:poss">27</dep>
+    <dep name="nsubj">438</dep>
+    <dep name="nsubj:nc">44</dep>
+    <dep name="nsubj:pass">4</dep>
+    <dep name="nummod">97</dep>
+    <dep name="obj">179</dep>
+    <dep name="obl">124</dep>
+    <dep name="obl:abl">2</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:arg">1</dep>
+    <dep name="obl:ben">2</dep>
+    <dep name="obl:cmpr">3</dep>
+    <dep name="obl:inst">7</dep>
+    <dep name="obl:loc">17</dep>
+    <dep name="obl:pmod">19</dep>
+    <dep name="obl:soc">2</dep>
+    <dep name="obl:tmod">81</dep>
+    <dep name="punct">534</dep>
+    <dep name="root">534</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
