@@ -71,7 +71,7 @@
     <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- அடிக்கப்பட்டான் -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="42">
     <dep name="acl">12</dep>
     <dep name="acl:relcl">3</dep>
     <dep name="advcl">34</dep>
@@ -101,13 +101,12 @@
     <dep name="nummod">97</dep>
     <dep name="obj">179</dep>
     <dep name="obl">120</dep>
-    <dep name="obl:abl">2</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:arg">1</dep>
     <dep name="obl:ben">2</dep>
     <dep name="obl:cmpr">4</dep>
     <dep name="obl:inst">7</dep>
-    <dep name="obl:lmod">17</dep>
+    <dep name="obl:lmod">19</dep>
     <dep name="obl:pmod">19</dep>
     <dep name="obl:soc">2</dep>
     <dep name="obl:tmod">84</dep>

@@ -583,7 +583,7 @@
 # translit = kumār kōyililiruntu vantāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
-2	கோயிலிலிருந்து	கோயில்	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl:abl	_	Translit=kōyililiruntu|LTranslit=kōyil
+2	கோயிலிலிருந்து	கோயில்	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl:lmod	_	Translit=kōyililiruntu|LTranslit=kōyil
 3	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantāṉ|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -805,7 +805,7 @@
 1	ஐந்து	ஐந்து	NUM	_	Case=Nom	2	nummod	_	Translit=aintu|LTranslit=aintu
 2	வருசத்தில்	வருசம்	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:tmod	_	Translit=varucattil|LTranslit=varucam
 3	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	Translit=kumār|LTranslit=kumār
-4	வெளிநாட்டிலிருந்து	வெளிநாடு	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:abl	_	Translit=veḷināṭṭiliruntu|LTranslit=veḷināṭu
+4	வெளிநாட்டிலிருந்து	வெளிநாடு	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:lmod	_	Translit=veḷināṭṭiliruntu|LTranslit=veḷināṭu
 5	திரும்பி	திரும்பு	ADV	_	Polarity=Pos|VerbForm=Conv	6	advmod	_	Translit=tirumpi|LTranslit=tirumpu
 6	வருவான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	Translit=varuvāṉ|LTranslit=vā
 7	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
