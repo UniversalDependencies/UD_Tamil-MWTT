@@ -333,7 +333,7 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=kumār|LTranslit=kumār
 2	ஐந்து	ஐந்து	NUM	_	Case=Nom	3	nummod	_	Translit=aintu|LTranslit=aintu
 3	நாளுக்கு	நாள்	NOUN	_	Case=Dat|Number=Sing|Person=3	5	obl:tmod	_	Translit=nāḷukku|LTranslit=nāḷ
-4	வேலை	வேலை	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:nv	_	Translit=vēlai|LTranslit=vēlai
+4	வேலை	வேலை	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:lvc	_	Translit=vēlai|LTranslit=vēlai
 5	செய்கிறான்	செய்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=ceykiṟāṉ|LTranslit=cey
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
@@ -669,7 +669,7 @@
 # translation = 'Kumar progressed (in his career/ life)'
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
-2	முன்னுக்கு	முன்னே	ADV	_	Case=Dat|Number=Sing	3	compound:nv	_	Translit=muṉṉukku|LTranslit=muṉṉē
+2	முன்னுக்கு	முன்னே	ADV	_	Case=Dat|Number=Sing	3	compound:lvc	_	Translit=muṉṉukku|LTranslit=muṉṉē
 3	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantāṉ|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -747,7 +747,7 @@
 1	அவன்	அவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Translit=avaṉ|LTranslit=avaṉ
 2	ஒரு	ஒன்று	NUM	_	_	3	nummod	_	Translit=oru|LTranslit=oṉṟu
 3	ஆபிசில்	ஆபிச்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=āpicil|LTranslit=āpic
-4	வேலை	வேலை	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:nv	_	Translit=vēlai|LTranslit=vēlai
+4	வேலை	வேலை	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:lvc	_	Translit=vēlai|LTranslit=vēlai
 5	செய்கிறான்	செய்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=ceykiṟāṉ|LTranslit=cey
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
@@ -845,7 +845,7 @@
 # translit = nāḷaikku maḻai peyyum .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நாளைக்கு	நாளை	ADV	_	Case=Dat|Number=Sing	3	obl:tmod	_	Translit=nāḷaikku|LTranslit=nāḷai
-2	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=maḻai|LTranslit=maḻai
+2	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=maḻai|LTranslit=maḻai
 3	பெய்யும்	பெய்	VERB	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	0	root	_	Translit=peyyum|LTranslit=pey
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -881,7 +881,7 @@
 # translit = avaṉukku pēti eṭukka .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	அவனுக்கு	அவன்	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	nsubj:nc	_	Translit=avaṉukku|LTranslit=avaṉ
-2	பேதி	பேதி	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=pēti|LTranslit=pēti
+2	பேதி	பேதி	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=pēti|LTranslit=pēti
 3	எடுக்க	எடு	VERB	_	VerbForm=Inf	0	root	_	Translit=eṭukka|LTranslit=eṭu
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -2040,7 +2040,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	காலை	காலை	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmod	_	Translit=kālai|LTranslit=kālai
 2	முதல்	முதல்	ADP	_	AdpType=Post	1	case	_	Translit=mutal|LTranslit=mutal
-3	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:nv	_	Translit=maḻai|LTranslit=maḻai
+3	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:lvc	_	Translit=maḻai|LTranslit=maḻai
 4	பெய்கிறது	பெய்	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=peykiṟatu|LTranslit=pey
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
@@ -2064,7 +2064,7 @@
 3-4	கட்டுப்பாட்டுப்படி	_	_	_	_	_	_	_	Translit=kaṭṭuppāṭṭuppaṭi
 3	கட்டுப்பாட்டு	கட்டுப்பாடு	NOUN	_	Number=Sing|Person=3	6	obl	_	Translit=kaṭṭuppāṭṭu|LTranslit=kaṭṭuppāṭu
 4	படி	படி	ADP	_	AdpType=Post	3	case	_	Translit=paṭi|LTranslit=paṭi
-5	கல்யாணம்	கல்யாணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound:nv	_	Translit=kalyāṇam|LTranslit=kalyāṇam
+5	கல்யாணம்	கல்யாணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound:lvc	_	Translit=kalyāṇam|LTranslit=kalyāṇam
 6	செய்யவில்லை	செய்	VERB	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	0	root	_	Translit=ceyyavillai|LTranslit=cey
 7	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
@@ -3039,7 +3039,7 @@
 # translit = mikavum veḷiccam illāta vīṭu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	மிகவும்	மிகவும்	ADV	_	_	2	advmod	_	Translit=mikavum|LTranslit=mikavum
-2	வெளிச்சம்	வெளிச்சம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=veḷiccam|LTranslit=veḷiccam
+2	வெளிச்சம்	வெளிச்சம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=veḷiccam|LTranslit=veḷiccam
 3	இல்லாத	இல்லாத	ADJ	_	_	4	acl	_	Translit=illāta|LTranslit=illāta
 4	வீடு	வீடு	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Translit=vīṭu|LTranslit=vīṭu
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
@@ -3589,7 +3589,7 @@
 # translit = kumārukku uṭampu cariyillaiyām .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	3	nsubj:nc	_	Translit=kumārukku|LTranslit=kumār
-2	உடம்பு	உடம்பு	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=uṭampu|LTranslit=uṭampu
+2	உடம்பு	உடம்பு	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=uṭampu|LTranslit=uṭampu
 3	சரியில்லையாம்	சரியில்லை	VERB	_	Polarity=Neg|VerbForm=Fin	0	root	_	Translit=cariyillaiyām|LTranslit=cariyillai
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -4030,7 +4030,7 @@
 4	கொடுத்தால்	கொடு	VERB	_	VerbForm=Fin	7	advcl:cond	_	Translit=koṭuttāl|LTranslit=koṭu
 5	அது	அது	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	Translit=atu|LTranslit=atu
 6-7	சந்தோஷப்படுகிறது	_	_	_	_	_	_	_	Translit=cantōṣappaṭukiṟatu
-6	சந்தோஷ	சந்தோஷம்	NOUN	_	Number=Sing|Person=3	7	compound:nv	_	Translit=cantōṣa|LTranslit=cantōṣam
+6	சந்தோஷ	சந்தோஷம்	NOUN	_	Number=Sing|Person=3	7	compound:lvc	_	Translit=cantōṣa|LTranslit=cantōṣam
 7	படுகிறது	படு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=paṭukiṟatu|LTranslit=paṭu
 8	.	.	PUNCT	_	PunctType=Peri	7	punct	_	Translit=.|LTranslit=.
 
@@ -4220,7 +4220,7 @@
 3	பெண்ணை	பெண்	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obj	_	Translit=peṇṇai|LTranslit=peṇ
 4	பிடித்து	பிடி	VERB	_	Polarity=Pos|VerbForm=Conv	7	advcl	_	Translit=piṭittu|LTranslit=piṭi
 5	அவளை	அவள்	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obj	_	Translit=avaḷai|LTranslit=avaḷ
-6	கல்யாணம்	கல்யாணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound:nv	_	Translit=kalyāṇam|LTranslit=kalyāṇam
+6	கல்யாணம்	கல்யாணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound:lvc	_	Translit=kalyāṇam|LTranslit=kalyāṇam
 7	செய்தான்	செய்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=ceytāṉ|LTranslit=cey
 8	.	.	PUNCT	_	PunctType=Peri	7	punct	_	Translit=.|LTranslit=.
 
@@ -4240,7 +4240,7 @@
 # translit = avaṉukku kaṇ teriyātu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	அவனுக்கு	அவன்	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	nsubj:nc	_	Translit=avaṉukku|LTranslit=avaṉ
-2	கண்	கண்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=kaṇ|LTranslit=kaṇ
+2	கண்	கண்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=kaṇ|LTranslit=kaṇ
 3	தெரியாது	தெரி	VERB	_	Polarity=Neg	0	root	_	Translit=teriyātu|LTranslit=teri
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -4249,7 +4249,7 @@
 # translit = avaḷukku kātu kēṭkātu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	அவளுக்கு	அவள்	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	nsubj:nc	_	Translit=avaḷukku|LTranslit=avaḷ
-2	காது	காது	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=kātu|LTranslit=kātu
+2	காது	காது	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=kātu|LTranslit=kātu
 3	கேட்காது	கேள்	VERB	_	Polarity=Neg	0	root	_	Translit=kēṭkātu|LTranslit=kēḷ
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -4258,7 +4258,7 @@
 # translit = kumārukku ñāpakam vantatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	3	nsubj:nc	_	Translit=kumārukku|LTranslit=kumār
-2	ஞாபகம்	ஞாபகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=ñāpakam|LTranslit=ñāpakam
+2	ஞாபகம்	ஞாபகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=ñāpakam|LTranslit=ñāpakam
 3	வந்தது	வா	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantatu|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -4267,7 +4267,7 @@
 # translit = kumārukku cantēkam vantatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	3	nsubj:nc	_	Translit=kumārukku|LTranslit=kumār
-2	சந்தேகம்	சந்தேகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=cantēkam|LTranslit=cantēkam
+2	சந்தேகம்	சந்தேகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=cantēkam|LTranslit=cantēkam
 3	வந்தது	வா	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantatu|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
@@ -4308,7 +4308,7 @@
 1	திடீரென்று	திடீரென்று	ADV	_	_	5	advmod	_	Translit=tiṭīreṉṟu|LTranslit=tiṭīreṉṟu
 2	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	5	nsubj:nc	_	Translit=kumārukku|LTranslit=kumār
 3	தன்	தான்	PRON	_	Case=Gen|Gender=Com|Number=Sing	4	nmod:poss	_	Translit=taṉ|LTranslit=tāṉ
-4	கண்	கண்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:nv	_	Translit=kaṇ|LTranslit=kaṇ
+4	கண்	கண்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:lvc	_	Translit=kaṇ|LTranslit=kaṇ
 5	தெரிந்தது	தெரி	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=terintatu|LTranslit=teri
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
@@ -4319,7 +4319,7 @@
 1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	5	nsubj:nc	_	Translit=kumārukku|LTranslit=kumār
 2	தன்	தான்	PRON	_	Case=Gen|Gender=Com|Number=Sing	5	nmod:poss	_	Translit=taṉ|LTranslit=tāṉ
 3	மேலே	மேலே	ADP	_	AdpType=Post	2	case	_	Translit=mēlē|LTranslit=mēlē
-4	ஆத்திரம்	ஆத்திரம்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:nv	_	Translit=āttiram|LTranslit=āttiram
+4	ஆத்திரம்	ஆத்திரம்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:lvc	_	Translit=āttiram|LTranslit=āttiram
 5	வந்தது	வா	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantatu|LTranslit=vā
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
@@ -4694,7 +4694,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நேற்று	நேற்று	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	Translit=nēṟṟu|LTranslit=nēṟṟu
 2	ராத்திரி	திரி	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmod	_	Translit=rāttiri|LTranslit=tiri
-3	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:nv	_	Translit=maḻai|LTranslit=maḻai
+3	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:lvc	_	Translit=maḻai|LTranslit=maḻai
 4	பெய்து	பெய்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=peytu|LTranslit=pey
 5	இருக்கும்	இரு	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	4	aux	_	Translit=irukkum|LTranslit=iru
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
@@ -4804,7 +4804,7 @@
 2	காலத்தில்	காலம்	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:tmod	_	Translit=kālattil|LTranslit=kālam
 3	எல்லோரும்	எல்லோரும்	PRON	_	Case=Nom|Number=Plur	6	nsubj	_	Translit=ellōrum|LTranslit=ellōrum
 4	விறகால்	விறகு	NOUN	_	Case=Ins|Number=Sing|Person=3	6	obl:inst	_	Translit=viṟakāl|LTranslit=viṟaku
-5	சமையல்	சமையல்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound:nv	_	Translit=camaiyal|LTranslit=camaiyal
+5	சமையல்	சமையல்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound:lvc	_	Translit=camaiyal|LTranslit=camaiyal
 6-8	செய்துகொண்டுவந்தார்கள்	_	_	_	_	_	_	_	Translit=ceytukoṇṭuvantārkaḷ
 6	செய்து	செய்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=ceytu|LTranslit=cey
 7	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	6	aux	_	Translit=koṇṭu|LTranslit=koḷ
@@ -4819,7 +4819,7 @@
 2	காலத்தில்	காலம்	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:tmod	_	Translit=kālattil|LTranslit=kālam
 3	எல்லோரும்	எல்லோரும்	PRON	_	Case=Nom|Number=Plur	6	nsubj	_	Translit=ellōrum|LTranslit=ellōrum
 4	விறகால்	விறகு	NOUN	_	Case=Ins|Number=Sing|Person=3	6	obl:inst	_	Translit=viṟakāl|LTranslit=viṟaku
-5	சமையல்	சமையல்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound:nv	_	Translit=camaiyal|LTranslit=camaiyal
+5	சமையல்	சமையல்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound:lvc	_	Translit=camaiyal|LTranslit=camaiyal
 6-7	செய்துவந்தார்கள்	_	_	_	_	_	_	_	Translit=ceytuvantārkaḷ
 6	செய்து	செய்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=ceytu|LTranslit=cey
 7	வந்தார்கள்	வா	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Past	6	aux	_	Translit=vantārkaḷ|LTranslit=vā
@@ -4960,7 +4960,7 @@
 # translit = kumār ōyvu eṭukka vēṇṭum .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
-2	ஓய்வு	ஓய்வு	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=ōyvu|LTranslit=ōyvu
+2	ஓய்வு	ஓய்வு	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=ōyvu|LTranslit=ōyvu
 3	எடுக்க	எடு	VERB	_	VerbForm=Inf	0	root	_	Translit=eṭukka|LTranslit=eṭu
 4	வேண்டும்	வேண்டு	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	3	aux	_	Translit=vēṇṭum|LTranslit=vēṇṭu
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
@@ -4995,7 +4995,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
 2	ஏரியில்	ஏரி	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:lmod	_	Translit=ēriyil|LTranslit=ēri
-3	நீச்சல்	நீச்சல்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:nv	_	Translit=nīccal|LTranslit=nīccal
+3	நீச்சல்	நீச்சல்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:lvc	_	Translit=nīccal|LTranslit=nīccal
 4	அடிக்க	அடி	VERB	_	VerbForm=Inf	0	root	_	Translit=aṭikka|LTranslit=aṭi
 5	கூடும்	கூடு	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	4	aux	_	Translit=kūṭum|LTranslit=kūṭu
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
@@ -5191,7 +5191,7 @@
 # translit = ippōtu maḻai peyya pōkiṟatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இப்போது	இப்போது	ADV	_	_	2	obl:tmod	_	Translit=ippōtu|LTranslit=ippōtu
-2	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:nv	_	Translit=maḻai|LTranslit=maḻai
+2	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	Translit=maḻai|LTranslit=maḻai
 3	பெய்ய	பெய்	VERB	_	VerbForm=Inf	0	root	_	Translit=peyya|LTranslit=pey
 4	போகிறது	போ	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=pōkiṟatu|LTranslit=pō
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.

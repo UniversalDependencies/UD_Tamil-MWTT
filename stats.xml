@@ -84,7 +84,7 @@
     <dep name="aux:pass">1</dep>
     <dep name="case">66</dep>
     <dep name="cc">2</dep>
-    <dep name="compound:nv">23</dep>
+    <dep name="compound:lvc">23</dep>
     <dep name="compound:redup">2</dep>
     <dep name="conj">4</dep>
     <dep name="dep">2</dep>
