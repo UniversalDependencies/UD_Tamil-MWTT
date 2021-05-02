@@ -402,7 +402,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=kumār|LTranslit=kumār
 2	தன்	தான்	PRON	_	Case=Gen|Gender=Com|Number=Sing	3	nmod:poss	_	Translit=taṉ|LTranslit=tāṉ
-3	பையனுக்காகப்	பையன்	NOUN	_	Case=Ben|Number=Sing|Person=3	5	obl:ben	_	Translit=paiyaṉukkākap|LTranslit=paiyaṉ
+3	பையனுக்காகப்	பையன்	NOUN	_	Case=Ben|Number=Sing|Person=3	5	obl	_	Translit=paiyaṉukkākap|LTranslit=paiyaṉ
 4	பணம்	பணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	Translit=paṇam|LTranslit=paṇam
 5	சேர்த்தான்	சேர்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=cērttāṉ|LTranslit=cēr
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
@@ -412,7 +412,7 @@
 # translit = kumār appāvukkākac cīkkiram vīṭṭukku vantāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=kumār|LTranslit=kumār
-2	அப்பாவுக்காகச்	அப்பா	NOUN	_	Case=Ben|Number=Sing|Person=3	5	obl:ben	_	Translit=appāvukkākac|LTranslit=appā
+2	அப்பாவுக்காகச்	அப்பா	NOUN	_	Case=Ben|Number=Sing|Person=3	5	obl	_	Translit=appāvukkākac|LTranslit=appā
 3	சீக்கிரம்	சீக்கிரம்	ADV	_	_	5	advmod	_	Translit=cīkkiram|LTranslit=cīkkiram
 4	வீட்டுக்கு	வீடு	NOUN	_	Case=Dat|Number=Sing|Person=3	5	obl	_	Translit=vīṭṭukku|LTranslit=vīṭu
 5	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantāṉ|LTranslit=vā
