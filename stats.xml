@@ -71,7 +71,7 @@
     <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- அடிக்கப்பட்டான் -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="39">
     <dep name="acl">12</dep>
     <dep name="acl:relcl">3</dep>
     <dep name="advcl">34</dep>
@@ -90,8 +90,7 @@
     <dep name="dep">2</dep>
     <dep name="det">50</dep>
     <dep name="fixed">2</dep>
-    <dep name="iobj">25</dep>
-    <dep name="iobj:loc">2</dep>
+    <dep name="iobj">27</dep>
     <dep name="mark">1</dep>
     <dep name="nmod">8</dep>
     <dep name="nmod:poss">28</dep>
