@@ -491,7 +491,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=kumār|LTranslit=kumār
 2	தன்	தான்	PRON	_	Case=Gen|Gender=Com|Number=Sing	3	nmod:poss	_	Translit=taṉ|LTranslit=tāṉ
-3	மனைவியோடு	மனைவி	NOUN	_	Case=Com|Number=Sing|Person=3	4	obl:soc	_	Translit=maṉaiviyōṭu|LTranslit=maṉaivi
+3	மனைவியோடு	மனைவி	NOUN	_	Case=Com|Number=Sing|Person=3	4	obl	_	Translit=maṉaiviyōṭu|LTranslit=maṉaivi
 4	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantāṉ|LTranslit=vā
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
@@ -5016,7 +5016,7 @@
 # translit = nī kumārōṭu pēcak kūṭātu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நீ	நீ	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2	3	nsubj	_	Translit=nī|LTranslit=nī
-2	குமாரோடு	குமார்	PROPN	_	Case=Com|Number=Sing|Person=3	3	obl:soc	_	Translit=kumārōṭu|LTranslit=kumār
+2	குமாரோடு	குமார்	PROPN	_	Case=Com|Number=Sing|Person=3	3	obl	_	Translit=kumārōṭu|LTranslit=kumār
 3	பேசக்	பேசு	VERB	_	VerbForm=Inf	0	root	_	Translit=pēcak|LTranslit=pēcu
 4	கூடாது	கூடு	AUX	_	Polarity=Neg	3	aux	_	Translit=kūṭātu|LTranslit=kūṭu
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
