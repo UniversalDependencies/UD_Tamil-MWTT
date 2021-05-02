@@ -26,6 +26,7 @@ Lehmann, T. (1993). A grammar of modern Tamil. Pondicherry Institute of Linguist
 
 * 2021-05-15 v2.8
   * Removed DEPS because there are no real enhancements.
+  * Relation obl:loc changed to obl:lmod (which is used in other treebanks).
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 

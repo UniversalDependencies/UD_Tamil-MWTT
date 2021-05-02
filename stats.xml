@@ -71,9 +71,9 @@
     <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- அடிக்கப்பட்டான் -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
-    <dep name="acl">13</dep>
-    <dep name="acl:relcl">2</dep>
+  <deps unique="43">
+    <dep name="acl">12</dep>
+    <dep name="acl:relcl">3</dep>
     <dep name="advcl">34</dep>
     <dep name="advcl:cond">4</dep>
     <dep name="advmod">89</dep>
@@ -84,9 +84,8 @@
     <dep name="aux:pass">1</dep>
     <dep name="case">66</dep>
     <dep name="cc">2</dep>
-    <dep name="compound">5</dep>
-    <dep name="compound:nv">19</dep>
-    <dep name="compound:redup">1</dep>
+    <dep name="compound:nv">23</dep>
+    <dep name="compound:redup">2</dep>
     <dep name="conj">4</dep>
     <dep name="dep">2</dep>
     <dep name="det">50</dep>
@@ -94,24 +93,24 @@
     <dep name="iobj">25</dep>
     <dep name="iobj:loc">2</dep>
     <dep name="mark">1</dep>
-    <dep name="nmod">9</dep>
-    <dep name="nmod:poss">27</dep>
-    <dep name="nsubj">438</dep>
-    <dep name="nsubj:nc">44</dep>
+    <dep name="nmod">8</dep>
+    <dep name="nmod:poss">28</dep>
+    <dep name="nsubj">432</dep>
+    <dep name="nsubj:nc">50</dep>
     <dep name="nsubj:pass">4</dep>
     <dep name="nummod">97</dep>
     <dep name="obj">179</dep>
-    <dep name="obl">124</dep>
+    <dep name="obl">120</dep>
     <dep name="obl:abl">2</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:arg">1</dep>
     <dep name="obl:ben">2</dep>
-    <dep name="obl:cmpr">3</dep>
+    <dep name="obl:cmpr">4</dep>
     <dep name="obl:inst">7</dep>
-    <dep name="obl:loc">17</dep>
+    <dep name="obl:lmod">17</dep>
     <dep name="obl:pmod">19</dep>
     <dep name="obl:soc">2</dep>
-    <dep name="obl:tmod">81</dep>
+    <dep name="obl:tmod">84</dep>
     <dep name="punct">534</dep>
     <dep name="root">534</dep>
     <dep name="vocative">2</dep>

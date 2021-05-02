@@ -543,7 +543,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=kumār|LTranslit=kumār
 2	எங்கள்	எங்கள்	PRON	_	Case=Gen|Gender=Com|Number=Plur|Person=1	3	nmod:poss	_	Translit=XX|LTranslit=YY
-3	வீட்டோடு	வீடு	NOUN	_	Case=Com|Number=Sing|Person=3	4	obl:loc	_	Translit=vīṭṭōṭu|LTranslit=vīṭu
+3	வீட்டோடு	வீடு	NOUN	_	Case=Com|Number=Sing|Person=3	4	obl:lmod	_	Translit=vīṭṭōṭu|LTranslit=vīṭu
 4	இருக்கிறான்	இரு	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=irukkiṟāṉ|LTranslit=iru
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
@@ -746,7 +746,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	அவன்	அவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Translit=avaṉ|LTranslit=avaṉ
 2	ஒரு	ஒன்று	NUM	_	_	3	nummod	_	Translit=oru|LTranslit=oṉṟu
-3	ஆபிசில்	ஆபிச்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=āpicil|LTranslit=āpic
+3	ஆபிசில்	ஆபிச்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=āpicil|LTranslit=āpic
 4	வேலை	வேலை	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:nv	_	Translit=vēlai|LTranslit=vēlai
 5	செய்கிறான்	செய்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=ceykiṟāṉ|LTranslit=cey
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
@@ -981,7 +981,7 @@
 # translit = inta ūril oru kōyil kiṭaiyātu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
-2	ஊரில்	ஊர்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=ūril|LTranslit=ūr
+2	ஊரில்	ஊர்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=ūril|LTranslit=ūr
 3	ஒரு	ஒன்று	NUM	_	_	4	nummod	_	Translit=oru|LTranslit=oṉṟu
 4	கோயில்	கோயில்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=kōyil|LTranslit=kōyil
 5	கிடையாது	கிடை	VERB	_	Polarity=Neg	0	root	_	Translit=kiṭaiyātu|LTranslit=kiṭai
@@ -1022,7 +1022,7 @@
 # translit = inta vīṭṭil oru vēlaikkāraṉ uṇṭu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
-2	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=vīṭṭil|LTranslit=vīṭu
+2	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=vīṭṭil|LTranslit=vīṭu
 3	ஒரு	ஒன்று	NUM	_	_	4	nummod	_	Translit=oru|LTranslit=oṉṟu
 4	வேலைக்காரன்	வேலைக்காரன்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=vēlaikkāraṉ|LTranslit=vēlaikkāraṉ
 5	உண்டு	உள்	VERB	_	Polarity=Pos|VerbForm=Fin	0	root	_	Translit=uṇṭu|LTranslit=uḷ
@@ -1033,7 +1033,7 @@
 # translit = inta vīṭṭil oru vēlaikkāri uṇṭu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
-2	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=vīṭṭil|LTranslit=vīṭu
+2	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=vīṭṭil|LTranslit=vīṭu
 3	ஒரு	ஒன்று	NUM	_	_	4	nummod	_	Translit=oru|LTranslit=oṉṟu
 4	வேலைக்காரி	வேலைக்காரி	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=vēlaikkāri|LTranslit=vēlaikkāri
 5	உண்டு	உள்	VERB	_	Polarity=Pos|VerbForm=Fin	0	root	_	Translit=uṇṭu|LTranslit=uḷ
@@ -1044,7 +1044,7 @@
 # translit = inta vīṭṭil oru nāy uṇṭu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
-2	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=vīṭṭil|LTranslit=vīṭu
+2	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=vīṭṭil|LTranslit=vīṭu
 3	ஒரு	ஒன்று	NUM	_	_	4	nummod	_	Translit=oru|LTranslit=oṉṟu
 4	நாய்	நாய்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=nāy|LTranslit=nāy
 5	உண்டு	உள்	VERB	_	Polarity=Pos|VerbForm=Fin	0	root	_	Translit=uṇṭu|LTranslit=uḷ
@@ -1081,7 +1081,7 @@
 # text = வீட்டில் உள்ள நாய் .
 # translit = vīṭṭil uḷḷa nāy .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:loc	_	Translit=vīṭṭil|LTranslit=vīṭu
+1	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=vīṭṭil|LTranslit=vīṭu
 2	உள்ள	உள்ள	ADP	_	AdpType=Post	1	case	_	Translit=uḷḷa|LTranslit=uḷḷa
 3	நாய்	நாய்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Translit=nāy|LTranslit=nāy
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
@@ -1813,7 +1813,7 @@
 2	இரண்டு	இரண்டு	NUM	_	Case=Nom	3	nummod	_	Translit=iraṇṭu|LTranslit=iraṇṭu
 3	மாணவர்களும்	மாணவர்	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	Translit=māṇavarkaḷum|LTranslit=māṇavar
 4	ஒரு	ஒன்று	NUM	_	_	5	nummod	_	Translit=oru|LTranslit=oṉṟu
-5	அறையில்	அறை	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:loc	_	Translit=aṟaiyil|LTranslit=aṟai
+5	அறையில்	அறை	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:lmod	_	Translit=aṟaiyil|LTranslit=aṟai
 6	தங்குகிறார்கள்	தங்கு	VERB	_	Gender=Com|Number=Plur|Person=3|Tense=Pres	0	root	_	Translit=taṅkukiṟārkaḷ|LTranslit=taṅku
 7	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
@@ -2868,7 +2868,7 @@
 # text = சென்னையில் நான்கு வருசமாக இருக்கிறேன் .
 # translit = ceṉṉaiyil nāṉku varucamāka irukkiṟēṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	சென்னையில்	சென்னை	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:loc	_	Translit=ceṉṉaiyil|LTranslit=ceṉṉai
+1	சென்னையில்	சென்னை	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:lmod	_	Translit=ceṉṉaiyil|LTranslit=ceṉṉai
 2	நான்கு	நான்கு	NUM	_	Case=Nom	3	nummod	_	Translit=nāṉku|LTranslit=nāṉku
 3	வருசமாக	வருசம்	NOUN	_	Number=Sing|Person=3	4	obl:tmod	_	Translit=varucamāka|LTranslit=varucam
 4	இருக்கிறேன்	இரு	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Pres	0	root	_	Translit=irukkiṟēṉ|LTranslit=iru
@@ -2930,7 +2930,7 @@
 # text = இராமேஷ்வரத்தில் ஐய்யர்களாக இருக்கிறார்கள் .
 # translit = irāmēṣvarattil aiyyarkaḷāka irukkiṟārkaḷ .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	இராமேஷ்வரத்தில்	இராமேஷ்வரம்	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:loc	_	Translit=irāmēṣvarattil|LTranslit=irāmēṣvaram
+1	இராமேஷ்வரத்தில்	இராமேஷ்வரம்	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=irāmēṣvarattil|LTranslit=irāmēṣvaram
 2	ஐய்யர்களாக	ஐய்யர்	NOUN	_	Number=Plur	3	obl	_	Translit=aiyyarkaḷāka|LTranslit=aiyyar
 3	இருக்கிறார்கள்	இரு	VERB	_	Gender=Com|Number=Plur|Person=3|Tense=Pres	0	root	_	Translit=irukkiṟārkaḷ|LTranslit=iru
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
@@ -3741,7 +3741,7 @@
 # translit = inta kirāmattil mūṉṟu kōvil irukkiṟatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
-2	கிராமத்தில்	கிராமம்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=kirāmattil|LTranslit=kirāmam
+2	கிராமத்தில்	கிராமம்	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=kirāmattil|LTranslit=kirāmam
 3	மூன்று	மூன்று	NUM	_	Case=Nom	4	nummod	_	Translit=mūṉṟu|LTranslit=mūṉṟu
 4	கோவில்	கோவில்	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=kōvil|LTranslit=kōvil
 5	இருக்கிறது	இரு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=irukkiṟatu|LTranslit=iru
@@ -4670,7 +4670,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=kumār|LTranslit=kumār
 2	எங்கள்	எங்கள்	PRON	_	Case=Gen|Gender=Com|Number=Plur|Person=1	3	nmod:poss	_	Translit=eṅkaḷ|LTranslit=eṅkaḷ
-3	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:loc	_	Translit=vīṭṭil|LTranslit=vīṭu
+3	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:lmod	_	Translit=vīṭṭil|LTranslit=vīṭu
 4-5	தங்கியிருக்கிறான்	_	_	_	_	_	_	_	Translit=taṅkiyirukkiṟāṉ
 4	தங்கி	தங்கு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=taṅki|LTranslit=taṅku
 5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
@@ -4727,7 +4727,7 @@
 # translit = kumār tiṇṇaiyil uṭkārntukoṇṭirukkiṟāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
-2	திண்ணையில்	திண்ணை	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:loc	_	Translit=tiṇṇaiyil|LTranslit=tiṇṇai
+2	திண்ணையில்	திண்ணை	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=tiṇṇaiyil|LTranslit=tiṇṇai
 3-5	உட்கார்ந்துகொண்டிருக்கிறான்	_	_	_	_	_	_	_	Translit=uṭkārntukoṇṭirukkiṟāṉ
 3	உட்கார்ந்து	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=uṭkārntu|LTranslit=koḷ
 4	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	3	aux	_	Translit=koṇṭu|LTranslit=koḷ
@@ -4764,7 +4764,7 @@
 # translit = māṇavarkaḷ vakuppil pēcikkoṇṭēyiruppārkaḷ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	மாணவர்கள்	மாணவர்	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	Translit=māṇavarkaḷ|LTranslit=māṇavar
-2	வகுப்பில்	வகுப்பு	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:loc	_	Translit=vakuppil|LTranslit=vakuppu
+2	வகுப்பில்	வகுப்பு	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=vakuppil|LTranslit=vakuppu
 3-4	பேசிக்கொண்டேயிருப்பார்கள்	_	_	_	_	_	_	_	Translit=pēcikkoṇṭēyiruppārkaḷ
 3	பேசிக்கொண்டே	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=pēcikkoṇṭē|LTranslit=koḷ
 4	இருப்பார்கள்	இரு	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Fut	3	aux	_	Translit=iruppārkaḷ|LTranslit=iru
@@ -4994,7 +4994,7 @@
 # translit = inta ēriyil nīccal aṭikka kūṭum .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
-2	ஏரியில்	ஏரி	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:loc	_	Translit=ēriyil|LTranslit=ēri
+2	ஏரியில்	ஏரி	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:lmod	_	Translit=ēriyil|LTranslit=ēri
 3	நீச்சல்	நீச்சல்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:nv	_	Translit=nīccal|LTranslit=nīccal
 4	அடிக்க	அடி	VERB	_	VerbForm=Inf	0	root	_	Translit=aṭikka|LTranslit=aṭi
 5	கூடும்	கூடு	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	4	aux	_	Translit=kūṭum|LTranslit=kūṭu
@@ -5060,7 +5060,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இப்போது	இப்போது	ADV	_	_	5	obl:tmod	_	Translit=ippōtu|LTranslit=ippōtu
 2	இந்த	இந்த	DET	_	_	3	det	_	Translit=inta|LTranslit=inta
-3	தெருவில்	தெரு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:loc	_	Translit=teruvil|LTranslit=teru
+3	தெருவில்	தெரு	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:lmod	_	Translit=teruvil|LTranslit=teru
 4	மறுபடியும்	படி	ADV	_	_	5	advmod	_	Translit=maṟupaṭiyum|LTranslit=paṭi
 5	நடக்க	நட	VERB	_	VerbForm=Inf	0	root	_	Translit=naṭakka|LTranslit=naṭa
 6	முடியும்	முடி	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	5	aux	_	Translit=muṭiyum|LTranslit=muṭi
@@ -5106,7 +5106,7 @@
 # translit = nīṅkaḷ moṭṭaimāṭiyil ēṟalām .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நீங்கள்	நீங்கள்	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=2	3	nsubj	_	Translit=nīṅkaḷ|LTranslit=nīṅkaḷ
-2	மொட்டைமாடியில்	மொட்டைமாடி	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:loc	_	Translit=moṭṭaimāṭiyil|LTranslit=moṭṭaimāṭi
+2	மொட்டைமாடியில்	மொட்டைமாடி	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=moṭṭaimāṭiyil|LTranslit=moṭṭaimāṭi
 3	ஏறலாம்	ஏறு	VERB	_	VerbForm=Fin	0	root	_	Translit=ēṟalām|LTranslit=ēṟu
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
