@@ -295,7 +295,7 @@
 2	ஒரு	ஒன்று	NUM	_	_	3	nummod	3:nummod	Translit=oru|LTranslit=oṉṟu
 3	புத்தகம்	புத்தகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=puttakam|LTranslit=puttakam
 4	இருக்கிறது	இரு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	0:root	Translit=irukkiṟatu|LTranslit=iru
-5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
 
 # sent_id = 32
 # text = குமாருக்கு ஒரு வீடு வேண்டும் .
