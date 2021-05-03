@@ -5290,7 +5290,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	ராஜா	ராஜா	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	3:nsubj	Translit=rājā|LTranslit=rājā
 2	குமாரை	குமார்	PROPN	_	Case=Acc|Number=Sing|Person=3	3	obj	3:obj	Translit=kumārai|LTranslit=kumār
-3	படிப்பித்தான்	படி	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	0:root	Translit=paṭippittāṉ|LTranslit=paṭippi
+3	படிப்பித்தான்	படி	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=paṭippittāṉ|LTranslit=paṭippi
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
 # sent_id = 536
