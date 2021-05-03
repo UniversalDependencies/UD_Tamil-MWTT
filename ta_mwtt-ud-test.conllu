@@ -291,11 +291,11 @@
 # text = குமாருக்கு ஒரு புத்தகம் இருக்கிறது .
 # translit = kumārukku oru puttakam irukkiṟatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3|Polite=Form	3	nsubj:nc	3:nsubj:nc	Translit=kumārukku|LTranslit=kumār
+1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	4	obl	4:obl	Translit=kumārukku|LTranslit=kumār
 2	ஒரு	ஒன்று	NUM	_	_	3	nummod	3:nummod	Translit=oru|LTranslit=oṉṟu
-3	புத்தகம்	புத்தகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=puttakam|LTranslit=puttakam
-4	இருக்கிறது	இரு	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	3	cop	3:cop	Translit=irukkiṟatu|LTranslit=iru
-5	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
+3	புத்தகம்	புத்தகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=puttakam|LTranslit=puttakam
+4	இருக்கிறது	இரு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	0:root	Translit=irukkiṟatu|LTranslit=iru
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 32
 # text = குமாருக்கு ஒரு வீடு வேண்டும் .
