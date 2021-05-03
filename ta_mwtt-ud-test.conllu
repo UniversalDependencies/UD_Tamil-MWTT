@@ -372,7 +372,7 @@
 # text = குமாருக்கு இவன் நல்லவன் .
 # translit = kumārukku ivaṉ nallavaṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Gender=Com|Number=Sing|Person=3|Polite=Form	2	nmod:cmp	2:nmod:cmp	Translit=kumārukku|LTranslit=kumār
+1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Gender=Com|Number=Sing|Person=3|Polite=Form	2	nmod	2:nmod:cmp	Translit=kumārukku|LTranslit=kumār
 2	இவன்	இவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	3:nsubj	Translit=ivaṉ|LTranslit=ivaṉ
 3	நல்லவன்	நல்லவன்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=nallavaṉ|LTranslit=nallavaṉ
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
@@ -381,7 +381,7 @@
 # text = அதுக்கு இது மோசம் .
 # translit = atukku itu mōcam .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	அதுக்கு	அது	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod:cmp	2:nmod:cmp	Translit=atukku|LTranslit=atukku
+1	அதுக்கு	அது	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod:cmp	Translit=atukku|LTranslit=atukku
 2	இது	இது	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Translit=itu|LTranslit=itu
 3	மோசம்	மோசம்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=mōcam|LTranslit=mōcam
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
@@ -491,7 +491,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Gender=Com|Number=Sing|Person=3|Polite=Form	4	nsubj	4:nsubj	Translit=kumār|LTranslit=kumār
 2	தன்	தான்	PRON	_	Case=Gen|Gender=Com|Number=Sing	3	nmod:poss	3:nmod:poss	Translit=taṉ|LTranslit=tāṉ
-3	மனைவியோடு	மனைவி	NOUN	_	Case=Com|Number=Sing|Person=3	4	obl:soc	4:obl:soc	Translit=maṉaiviyōṭu|LTranslit=maṉaivi
+3	மனைவியோடு	மனைவி	NOUN	_	Case=Com|Number=Sing|Person=3	4	obl	4:obl:soc	Translit=maṉaiviyōṭu|LTranslit=maṉaivi
 4	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=vantāṉ|LTranslit=vā
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
 
@@ -583,7 +583,7 @@
 # translit = kumār kōyililiruntu vantāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	3:nsubj	Translit=kumār|LTranslit=kumār
-2	கோயிலிலிருந்து	கோயில்	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl:abl	3:obl:abl	Translit=kōyililiruntu|LTranslit=kōyil
+2	கோயிலிலிருந்து	கோயில்	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl	3:obl:abl	Translit=kōyililiruntu|LTranslit=kōyil
 3	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=vantāṉ|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -592,7 +592,7 @@
 # translit = kumār marattiliruntu viḻuntāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	3:nsubj	Translit=kumār|LTranslit=kumār
-2	மரத்திலிருந்து	மரம்	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl:abl	3:obl:abl	Translit=marattiliruntu|LTranslit=maram
+2	மரத்திலிருந்து	மரம்	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl	3:obl:abl	Translit=marattiliruntu|LTranslit=maram
 3	விழுந்தான்	விழு	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=viḻuntāṉ|LTranslit=viḻu
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -601,7 +601,7 @@
 # translit = kumār appāviṭamiruntu vantāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	3:nsubj	Translit=kumār|LTranslit=kumār
-2	அப்பாவிடமிருந்து	அப்பா	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl:abl	3:obl:abl	Translit=appāviṭamiruntu|LTranslit=appā
+2	அப்பாவிடமிருந்து	அப்பா	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl	3:obl:abl	Translit=appāviṭamiruntu|LTranslit=appā
 3	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=vantāṉ|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -805,7 +805,7 @@
 1	ஐந்து	ஐந்து	NUM	_	Case=Nom	2	nummod	2:nummod	Translit=aintu|LTranslit=aintu
 2	வருசத்தில்	வருசம்	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:tmod	6:obl:tmod	Translit=varucattil|LTranslit=varucam
 3	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	6:nsubj	Translit=kumār|LTranslit=kumār
-4	வெளிநாட்டிலிருந்து	வெளிநாடு	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:abl	6:obl:abl	Translit=veḷināṭṭiliruntu|LTranslit=veḷināṭu
+4	வெளிநாட்டிலிருந்து	வெளிநாடு	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl	6:obl:abl	Translit=veḷināṭṭiliruntu|LTranslit=veḷināṭu
 5	திரும்பி	திரும்பு	ADV	_	Polarity=Pos|VerbForm=Conv	6	advmod	6:advmod	Translit=tirumpi|LTranslit=tirumpu
 6	வருவான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	0:root	Translit=varuvāṉ|LTranslit=vā
 7	.	.	PUNCT	_	PunctType=Peri	6	punct	6:punct	Translit=.|LTranslit=.
@@ -1589,7 +1589,7 @@
 # translit = nāṉ cilavaṟṟaip pārttēṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நான்	நான்	PRON	_	Animacy=Anim|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Translit=nāṉ|LTranslit=nāṉ
-2	சிலவற்றைப்	சில	DET	_	Case=Acc|Number=Sing|Person=3	3	obj	3:obj	Translit=cilavaṟṟai|LTranslit=cila
+2	சிலவற்றைப்	சில	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Ind	3	obj	3:obj	Translit=cilavaṟṟai|LTranslit=cila
 3	பார்த்தேன்	பார்	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Past	0	root	0:root	Translit=pārttēṉ|LTranslit=pār
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -1598,7 +1598,7 @@
 # translit = puttakaṅkaḷ cilavaṟṟai vāṅkiṉēṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	புத்தகங்கள்	புத்தகம்	NOUN	_	Case=Nom|Number=Plur	3	obj	3:obj	Translit=puttakaṅkaḷ|LTranslit=puttakam
-2	சிலவற்றை	சில	DET	_	Case=Acc|Number=Sing|Person=3	1	det:nummod	1:det:nummod	Translit=cilavaṟṟai|LTranslit=cila
+2	சிலவற்றை	சில	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Ind	3	obj	3:obj	Translit=cilavaṟṟai|LTranslit=cila
 3	வாங்கினேன்	வாங்கு	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Past	0	root	0:root	Translit=vāṅkiṉēṉ|LTranslit=vāṅku
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -1607,7 +1607,7 @@
 # translit = puttakaṅkaḷ palavaṟṟai vāṅkiṉēṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	புத்தகங்கள்	புத்தகம்	NOUN	_	Case=Nom|Number=Plur	3	obj	3:obj	Translit=puttakaṅkaḷ|LTranslit=puttakam
-2	பலவற்றை	பல	DET	_	Case=Acc|Number=Sing|Person=3	1	det:nummod	1:det:nummod	Translit=palavaṟṟai|LTranslit=pala*morph
+2	பலவற்றை	பல	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Ind	3	obj	3:obj	Translit=palavaṟṟai|LTranslit=pala*morph
 3	வாங்கினேன்	வாங்கு	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Past	0	root	0:root	Translit=vāṅkiṉēṉ|LTranslit=vāṅku
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -1616,7 +1616,7 @@
 # translit = paiyaṉkaḷ ellām vantārkaḷ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	பையன்கள்	பையன்	NOUN	_	Case=Nom|Number=Plur	3	nsubj	3:nsubj	Translit=paiyaṉkaḷ|LTranslit=paiyaṉ
-2	எல்லாம்	எல்லாம்	DET	_	_	1	det:nummod	1:det:nummod	Translit=ellām|LTranslit=ellām
+2	எல்லாம்	எல்லாம்	DET	_	_	1	det	1:det:nummod	Translit=ellām|LTranslit=ellām
 3	வந்தார்கள்	வா	VERB	_	Gender=Com|Number=Plur|Person=3|Tense=Past	0	root	0:root	Translit=vantārkaḷ|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -1624,8 +1624,8 @@
 # text = பையன்கள் எல்லோரும் வந்தார்கள் .
 # translit = paiyaṉkaḷ ellōrum vantārkaḷ .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	பையன்கள்	பையன்	NOUN	_	Case=Nom|Number=Plur	3	nsubj	3:nsubj	Translit=paiyaṉkaḷ|LTranslit=paiyaṉ
-2	எல்லோரும்	எல்லோரும்	DET	_	Case=Nom|Number=Plur	1	det:nummod	1:det:nummod	Translit=ellōrum|LTranslit=ellōrum
+1	பையன்கள்	பையன்	NOUN	_	Case=Nom|Number=Plur	2	nmod	2:nmod	Translit=paiyaṉkaḷ|LTranslit=paiyaṉ
+2	எல்லோரும்	எல்லோரும்	DET	_	Case=Nom|Number=Plur	3	nsubj	3:nsubj	Translit=ellōrum|LTranslit=ellōrum
 3	வந்தார்கள்	வா	VERB	_	Gender=Com|Number=Plur|Person=3|Tense=Past	0	root	0:root	Translit=vantārkaḷ|LTranslit=vā
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -1634,7 +1634,7 @@
 # translit = vīṭukaḷ ellām naṉṟāka irukkiṉṟaṉa .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	வீடுகள்	வீடு	NOUN	_	Case=Nom|Number=Plur	4	nsubj	4:nsubj	Translit=vīṭukaḷ|LTranslit=vīṭu
-2	எல்லாம்	எல்லாம்	DET	_	_	1	det:nummod	1:det:nummod	Translit=ellām|LTranslit=ellām
+2	எல்லாம்	எல்லாம்	DET	_	_	1	det	1:det:nummod	Translit=ellām|LTranslit=ellām
 3	நன்றாக	நன்று	ADV	_	_	4	advmod	4:advmod	Translit=naṉṟāka|LTranslit=naṉṟu
 4	இருக்கின்றன	இரு	VERB	_	Gender=Neut|Number=Plur|Person=3|Tense=Pres	0	root	0:root	Translit=irukkiṉṟaṉa|LTranslit=iru
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
@@ -1735,7 +1735,7 @@
 # translit = kumār iṉṉoru puttakam kēṭṭāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=kumār|LTranslit=kumār
-2	இன்னொரு	இன்னொரு	ADJ	_	Case=Nom|Number=Sing|Person=3	3	amod	3:amod	Translit=iṉṉoru|LTranslit=iṉṉoru
+2	இன்னொரு	இன்னொரு	DET	_	Number=Sing	3	det	3:det	Translit=iṉṉoru|LTranslit=iṉṉoru
 3	புத்தகம்	புத்தகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	4:obj	Translit=puttakam|LTranslit=puttakam
 4	கேட்டான்	கேள்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=kēṭṭāṉ|LTranslit=kēḷ
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
@@ -1745,7 +1745,7 @@
 # translit = kumār vēṟoru puttakam kēṭṭāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=kumār|LTranslit=kumār
-2	வேறொரு	வேறொரு	ADJ	_	NumType=Card	3	amod	3:amod	Translit=vēṟoru|LTranslit=veṟoṟu
+2	வேறொரு	வேறொரு	DET	_	NumType=Card	3	det	3:det	Translit=vēṟoru|LTranslit=veṟoṟu
 3	புத்தகம்	புத்தகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	4:obj	Translit=puttakam|LTranslit=puttakam
 4	கேட்டான்	கேள்	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	0:root	Translit=kēṭṭāṉ|LTranslit=kēḷ
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
@@ -2467,11 +2467,11 @@
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
 
 # sent_id = 251
-# text = வீட்டை சுற்றி சாக்கடை இருக்கிறது .
+# text = வீட்டைச் சுற்றி சாக்கடை இருக்கிறது .
 # translit = vīṭṭai cuṟṟi cākkaṭai irukkiṟatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	வீட்டை	வீடு	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obl	4:obl	Translit=vīṭṭai|LTranslit=vīṭu
-2	சுற்றி	சுற்று	ADP	_	Polarity=Pos|VerbForm=Conv	4	case	4:case	Translit=cuṟṟi|LTranslit=cuṟṟu
+1	வீட்டைச்	வீடு	NOUN	_	Case=Acc|Number=Sing|Person=3	2	obj	2:obj	Translit=vīṭṭai|LTranslit=vīṭu
+2	சுற்றி	சுற்றி	VERB	_	Polarity=Pos|VerbForm=Conv	4	advcl	4:advcl	Translit=cuṟṟi|LTranslit=cuṟṟu
 3	சாக்கடை	சாக்கடை	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	Translit=cākkaṭai|LTranslit=cākkaṭai
 4	இருக்கிறது	இரு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	0:root	Translit=irukkiṟatu|LTranslit=iru
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
@@ -2482,8 +2482,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	எங்கள்	எங்கள்	PRON	_	Case=Gen|Gender=Com|Number=Plur|Person=1	2	nmod:poss	2:nmod:poss	Translit=XX|LTranslit=YY
 2	வீடு	வீடு	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	5:nsubj	Translit=vīṭu|LTranslit=vīṭu
-3	கோயிலைத்	கோயில்	NOUN	_	Case=Acc|Number=Sing|Person=3	5	obl	5:obl	Translit=kōyilait|LTranslit=kōyil
-4	தாண்டி	தாண்டு	ADP	_	Polarity=Pos|VerbForm=Conv	5	case	5:case	Translit=tāṇṭi|LTranslit=tāṇṭu
+3	கோயிலைத்	கோயில்	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obj	4:obj	Translit=kōyilait|LTranslit=kōyil
+4	தாண்டி	தாண்டு	VERB	_	Polarity=Pos|VerbForm=Conv	5	advcl	5:advcl	Translit=tāṇṭi|LTranslit=tāṇṭu
 5	இருக்கிறது	இரு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	0:root	Translit=irukkiṟatu|LTranslit=iru
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	5:punct	Translit=.|LTranslit=.
 
@@ -4319,8 +4319,8 @@
 # translit = kumārukku taṉ mēlē āttiram vantatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமாருக்கு	குமார்	PROPN	_	Case=Dat|Number=Sing|Person=3	4	nsubj	4:nsubj:nc	Translit=kumārukku|LTranslit=kumār
-2	தன்	தான்	PRON	_	Case=Gen|Gender=Com|Number=Sing	3	nmod:poss	3:nmod:poss	Translit=taṉ|LTranslit=tāṉ
-3	மேலே	மேலே	ADV	_	AdpType=Post	4	advmod	4:advmod	Translit=mēlē|LTranslit=mēlē
+2	தன்	தான்	ADV	_	Case=Gen|Gender=Com|Number=Sing	4	obl	4:obl	Translit=taṉ|LTranslit=tāṉ
+3	மேலே	மேலே	ADP	_	AdpType=Post	2	case	2:case	Translit=mēlē|LTranslit=mēlē
 4	ஆத்திரம்	ஆத்திரம்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	0:root	Translit=āttiram|LTranslit=āttiram
 5	வந்தது	வா	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Past	4	compound:lvc	4:compound:lvc	Translit=vantatu|LTranslit=vā
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	4:punct	Translit=.|LTranslit=.
@@ -5018,7 +5018,7 @@
 # translit = nī kumārōṭu pēcak kūṭātu .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நீ	நீ	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2	3	nsubj	3:nsubj	Translit=nī|LTranslit=nī
-2	குமாரோடு	குமார்	PROPN	_	Case=Com|Number=Sing|Person=3	3	obl:soc	3:obl:soc	Translit=kumārōṭu|LTranslit=kumār
+2	குமாரோடு	குமார்	PROPN	_	Case=Com|Number=Sing|Person=3	3	obl	3:obl:soc	Translit=kumārōṭu|LTranslit=kumār
 3	பேசக்	பேசு	VERB	_	VerbForm=Inf	0	root	0:root	Translit=pēcak|LTranslit=pēcu
 4	கூடாது	கூடு	AUX	_	Polarity=Neg	3	aux	3:aux	Translit=kūṭātu|LTranslit=kūṭu
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
