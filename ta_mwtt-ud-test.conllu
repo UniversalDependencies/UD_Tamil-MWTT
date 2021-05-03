@@ -105,7 +105,7 @@
 # translit = kumār kamalāvaik kātalikkiṟāṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3|Polite=Form	3	nsubj	3:nsubj	Translit=kumār|LTranslit=kumār
-2	கமலாவைக்	கமலா	PROPN	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Polite=Form	3	obj	3:obj	Translit=kamalāvai|LTranslit=kamalā
+2	கமலாவைக்	கமலா	PROPN	_	Case=Acc|Number=Sing|Person=3|Polite=Form	3	obj	3:obj	Translit=kamalāvai|LTranslit=kamalā
 3	காதலிக்கிறான்	காதலி	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Form|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kātalikkiṟāṉ|LTranslit=kātali
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	3:punct	Translit=.|LTranslit=.
 
@@ -271,7 +271,7 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3|Polite=Form	5	nsubj	5:nsubj	Translit=kumār|LTranslit=kumār
 2-3	பணத்துக்குத்தான்	_	_	_	_	_	_	_	Translit=paṇattukkuttāṉ
 2	பணத்துக்கு	பணம்	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Person=3	5	obl	5:obl	Translit=paṇattukku|LTranslit=paṇam
-3	தான்	தான்	PART	_	_	2	nmod:emph	2:nmod:emph	Translit=tāṉ|LTranslit=tāṉ
+3	தான்	தான்	PART	_	_	2	nmod	2:nmod:emph	Translit=tāṉ|LTranslit=tāṉ
 4	வேலை	வேலை	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	obj	5:obj	Translit=vēlai|LTranslit=vēlai
 5	செய்கிறான்	செய்	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Form|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=ceykiṟāṉ|LTranslit=cey
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	5:punct	Translit=.|LTranslit=.
