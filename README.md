@@ -4,9 +4,9 @@ MWTT - Modern Written Tamil Treebank has sentences taken primarily from a text c
 
 # Acknowledgments
 
-We would also like to thank our institutions, 
+We would also like to thank our institutions,
 University of Hyderabad, India (Krishnamurthy, Parameswari; Balasubramani, Keerthana)
-and 
+and
 National Language Processing Centre, University of Moratuwa, Sri Lanka (Sarveswaran, K)
 for allowing us to work on the treebank
 
@@ -38,7 +38,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: K, Sarveswaran; Krishnamurthy, Parameswari; Balasubramani, Keerthana
+Contributors: Kengatharaiyer, Sarveswaran; Krishnamurthy, Parameswari; Balasubramani, Keerthana
 Contributing: elsewhere
 Contact: sarves@cse.mrt.ac.lk
 ===============================================================================
