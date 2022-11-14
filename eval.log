@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Tamil-MWTT:
-commit b95f1e2e41d988904fcd96e38089bd37476db240
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 17:05:21 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Tamil-MWTT:
+commit bef6ca20c4e6956c1fbd5f0c445a35535e789c0a
+Merge: f4cabff 18594a6
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 2584 of 2584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.89867717184071.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,11 @@ Udapi: found 645 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 2584 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ta --max-err=10 UD_Tamil-MWTT/ta_mwtt-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 1219 Sent 124 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 2]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -35,6 +38,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.611764705882353) = 0.0470588235294118
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.475675675675676) = 0.0365904365904366
-(TOTAL score=0.25007948967486) * (availability=1) * (validity=1) = 0.25007948967486
-STARS = 1.5
-UD_Tamil-MWTT	0.25007948967486	1.5
+(TOTAL score=0.25007948967486) * (availability=1) * (validity=0.01) = 0.0025007948967486
+STARS = 0
+UD_Tamil-MWTT	0.0025007948967486	0
