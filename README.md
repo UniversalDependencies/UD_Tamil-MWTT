@@ -19,6 +19,8 @@ Lehmann, T. (1993). A grammar of modern Tamil. Pondicherry Institute of Linguist
 
 # Changelog
 
+* 2023-11-15 v2.13
+  * Fixed: No Gender for adjectives and adverbs.
 * 2021-05-15 v2.8
   * Removed DEPS because there are no real enhancements.
   * Relation obl:loc changed to obl:lmod (which is used in other treebanks).
