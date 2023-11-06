@@ -42,10 +42,10 @@
     <feat name="Case" value="Ins" upos="NOUN,PROPN">10</feat><!-- அப்பாவால், விறகால், அனுபவத்தால், கத்தியால், குமாரால், சாவியால், மண்ணால், மழையால் -->
     <feat name="Case" value="Loc" upos="NOUN,PRON,PROPN">45</feat><!-- நாற்காலியில், வீட்டில், கூட்டத்தில், அப்பாவிடம், அவனிடம், காலத்தில், வயதில், அறையில், ஆபிசில், இராமேஷ்வரத்தில் -->
     <feat name="Case" value="Nom" upos="ADV,NOUN,NUM,PRON,PROPN,VERB">690</feat><!-- குமார், நான், நேற்று, வீடு, பரிசு, அவன், ஐந்து, மந்திரி, பையன், பணம் -->
-    <feat name="Gender" value="Com" upos="ADV,AUX,NOUN,PRON,VERB">210</feat><!-- நான், வேண்டும், கொடுத்தார், வந்தார்கள், தன், தன்னை, நீ, என், எங்கள், என்னை -->
-    <feat name="Gender" value="Fem" upos="ADJ,PRON,VERB">6</feat><!-- அழகியவள், அவள், இருக்கிறாள், இவள், பாடினாள், வெறுக்கிறாள் -->
+    <feat name="Gender" value="Com" upos="AUX,NOUN,PRON,VERB">208</feat><!-- நான், வேண்டும், கொடுத்தார், வந்தார்கள், தன், தன்னை, நீ, என், எங்கள், என்னை -->
+    <feat name="Gender" value="Fem" upos="PRON,VERB">5</feat><!-- அவள், இருக்கிறாள், இவள், பாடினாள், வெறுக்கிறாள் -->
     <feat name="Gender" value="Masc" upos="AUX,NOUN,PRON,VERB">267</feat><!-- வந்தான், இருக்கிறான், அவன், சாப்பிட்டான், உட்கார்ந்தான், பேசினான், இருந்தான், கேட்டான், போனான், வாங்கினான் -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">136</feat><!-- இருக்கிறது, வரவில்லை, வந்தது, அது, இது, வந்தன, இதை, இருக்கின்றன, ஆயிற்று, இதைப் -->
+    <feat name="Gender" value="Neut" upos="AUX,NOUN,PRON,PROPN,VERB">135</feat><!-- இருக்கிறது, வரவில்லை, வந்தது, அது, இது, வந்தன, இதை, இருக்கின்றன, ஆயிற்று, இதைப் -->
     <feat name="Mood" value="Cnd" upos="VERB">1</feat><!-- தொட்டால் -->
     <feat name="Mood" value="Imp" upos="VERB">20</feat><!-- வா, வேண்டாம், போடு, எண்ணு, கொடுங்கள், சாப்பிடு, போ, வாங்கள், வாங்கு, வெட்டு -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">43</feat><!-- வரவில்லை, ஆயிற்று, கேட்டான், கொடுத்தான், சாப்பிட்டான், திறந்தது, போனான், வாங்கினான், ஆக்கினான், ஆனான் -->

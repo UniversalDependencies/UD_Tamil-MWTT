@@ -270,8 +270,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3|Polite=Form	5	nsubj	_	Translit=kumār|LTranslit=kumār
 2-3	பணத்துக்குத்தான்	_	_	_	_	_	_	_	Translit=paṇattukkuttāṉ
-2	பணத்துக்கு	பணம்	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Person=3	5	obl	_	Translit=paṇattukku|LTranslit=paṇam
-3	தான்	தான்	PART	_	_	2	nmod	_	Translit=tāṉ|LTranslit=tāṉ
+2	பணத்துக்கு	பணம்	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Person=3	5	obl	_	LTranslit=paṇam|Translit=paṇattukku
+3	தான்	தான்	PART	_	_	2	nmod	_	LTranslit=tāṉ|Translit=tāṉ
 4	வேலை	வேலை	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	obj	_	Translit=vēlai|LTranslit=vēlai
 5	செய்கிறான்	செய்	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Form|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=ceykiṟāṉ|LTranslit=cey
 6	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
@@ -438,8 +438,8 @@
 4	அனுபவத்தால்	அனுபவம்	NOUN	_	Case=Ins|Number=Sing|Person=3	6	obl	_	Translit=aṉupavattāl|LTranslit=aṉupavam
 5	தொழிலைக்	தொழில்	NOUN	_	Case=Acc|Number=Sing|Person=3	6	obj	_	Translit=toḻilaik|LTranslit=toḻil
 6-7	கற்றுக்கொண்டான்	_	_	_	_	_	_	_	Translit=kaṟṟukkoṇṭāṉ
-6	கற்றுக்	கல்	VERB	_	VerbForm=Conv	0	root	_	Translit=kaṟṟuk|LTranslit=kal
-7	கொண்டான்	கொள்	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	6	aux	_	Translit=koṇṭāṉ|LTranslit=koḷ
+6	கற்றுக்	கல்	VERB	_	VerbForm=Conv	0	root	_	LTranslit=kal|Translit=kaṟṟuk
+7	கொண்டான்	கொள்	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	6	aux	_	LTranslit=koḷ|Translit=koṇṭāṉ
 8	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 46
@@ -470,8 +470,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3|Polite=Form	3	nsubj:pass	_	Translit=kumār|LTranslit=kumār
 2	அப்பாவால்	அப்பா	NOUN	_	Case=Ins|Number=Sing|Person=3	3	obl:agent	_	Translit=appāvāl|LTranslit=appā
 3-4	அடிக்கப்பட்டான்	_	_	_	_	_	_	_	Translit=aṭikkappaṭṭāṉ
-3	அடிக்கப்	அடி	VERB	_	VerbForm=Inf	0	root	_	Translit=aṭikkap|LTranslit=aṭi
-4	பட்டான்	படு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux:pass	_	Translit=paṭṭāṉ|LTranslit=paṭu
+3	அடிக்கப்	அடி	VERB	_	VerbForm=Inf	0	root	_	LTranslit=aṭi|Translit=aṭikkap
+4	பட்டான்	படு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux:pass	_	LTranslit=paṭu|Translit=paṭṭāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 49
@@ -680,7 +680,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	அங்குக்கு	அங்கு	NOUN	_	Case=Dat|Number=Sing	3	obl:cmpr	_	Translit=aṅkukku|LTranslit=aṅku
 2	இங்கு	இங்கு	NOUN	_	_	3	nsubj	_	Translit=iṅku|LTranslit=iṅku
-3	நல்லது	நல்ல	ADJ	_	Gender=Neut|Number=Sing|Person=3	0	root	_	Translit=nallatu|LTranslit=nalla
+3	நல்லது	நல்ல	ADJ	_	Number=Sing|Person=3	0	root	_	Translit=nallatu|LTranslit=nalla
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 70
@@ -864,8 +864,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நான்	நான்	PRON	_	Animacy=Anim|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Translit=nāṉ|LTranslit=nāṉ
 2-3	விடமாட்டேன்	_	_	_	_	_	_	_	Translit=viṭamāṭṭēṉ
-2	விட	விடு	VERB	_	VerbForm=Inf	0	root	_	Translit=viṭa|LTranslit=viṭu
-3	மாட்டேன்	மாட்டு	AUX	_	Number=Sing|Person=1|Polarity=Neg	2	aux:neg	_	Translit=māṭṭēṉ|LTranslit=māṭṭu
+2	விட	விடு	VERB	_	VerbForm=Inf	0	root	_	LTranslit=viṭu|Translit=viṭa
+3	மாட்டேன்	மாட்டு	AUX	_	Number=Sing|Person=1|Polarity=Neg	2	aux:neg	_	LTranslit=māṭṭu|Translit=māṭṭēṉ
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 89
@@ -923,8 +923,8 @@
 3	இந்த	இந்த	DET	_	_	4	det	_	Translit=inta|LTranslit=inta
 4	வேலையைச்	வேலை	NOUN	_	Case=Acc|Number=Sing|Person=3	5	obj	_	Translit=vēlaiyai|LTranslit=vēlai
 5-6	செய்வானேன்	_	_	_	_	_	_	_	Translit=ceyvāṉēṉ
-5	செய்வான்	செய்	VERB	_	Number=Sing|Person=3|Tense=Fut	0	root	_	Translit=ceyvāṉ|LTranslit=cey
-6	ஏன்	ஏன்	ADV	_	_	5	advmod	_	Translit=ēṉ|LTranslit=ēṉ
+5	செய்வான்	செய்	VERB	_	Number=Sing|Person=3|Tense=Fut	0	root	_	LTranslit=cey|Translit=ceyvāṉ
+6	ஏன்	ஏன்	ADV	_	_	5	advmod	_	LTranslit=ēṉ|Translit=ēṉ
 7	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 95
@@ -934,8 +934,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	நேரத்தோடு	நேரம்	NOUN	_	Case=Com|Number=Sing|Person=3	3	obl:tmod	_	Translit=nērattōṭu|LTranslit=nēram
 3-4	வந்தால்தானே	_	_	_	_	_	_	_	Translit=vantāltāṉē
-3	வந்தால்	வா	VERB	_	VerbForm=Fin	0	root	_	Translit=vantāl|LTranslit=vā
-4	தானே	தான்	ADV	_	Gender=Com|Number=Sing	3	advmod:emph	_	Translit=tāṉē|LTranslit=tāṉ
+3	வந்தால்	வா	VERB	_	VerbForm=Fin	0	root	_	LTranslit=vā|Translit=vantāl
+4	தானே	தான்	ADV	_	Number=Sing	3	advmod:emph	_	LTranslit=tāṉ|Translit=tāṉē
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 96
@@ -964,8 +964,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	Translit=kumār|LTranslit=kumār
 2-3	சொல்வதுதானே	_	_	_	_	_	_	_	Translit=colvatutāṉē
-2	சொல்வது	சொல்	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Fut	0	root	_	Translit=colvatu|LTranslit=col
-3	தானே	தான்	ADV	_	Gender=Com|Number=Sing	2	advmod:emph	_	Translit=tāṉē|LTranslit=tāṉ
+2	சொல்வது	சொல்	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Fut	0	root	_	LTranslit=col|Translit=colvatu
+3	தானே	தான்	ADV	_	Number=Sing	2	advmod:emph	_	LTranslit=tāṉ|Translit=tāṉē
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 99
@@ -993,8 +993,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நான்	நான்	PRON	_	Animacy=Anim|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Translit=nāṉ|LTranslit=nāṉ
 2-3	வரமாட்டேன்	_	_	_	_	_	_	_	Translit=varamāṭṭēṉ
-2	வர	வா	VERB	_	VerbForm=Inf	0	root	_	Translit=vara|LTranslit=vā
-3	மாட்டேன்	மாட்டு	AUX	_	Gender=Com|Number=Sing|Person=1	2	aux:neg	_	Translit=māṭṭēṉ|LTranslit=māṭṭu
+2	வர	வா	VERB	_	VerbForm=Inf	0	root	_	LTranslit=vā|Translit=vara
+3	மாட்டேன்	மாட்டு	AUX	_	Gender=Com|Number=Sing|Person=1	2	aux:neg	_	LTranslit=māṭṭu|Translit=māṭṭēṉ
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 102
@@ -1003,8 +1003,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	நீ	நீ	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2	2	nsubj	_	Translit=nī|LTranslit=nī
 2-3	வரமாட்டாய்	_	_	_	_	_	_	_	Translit=varamāṭṭāy
-2	வர	வா	VERB	_	VerbForm=Inf	0	root	_	Translit=vara|LTranslit=vā
-3	மாட்டாய்	மாட்டு	AUX	_	Gender=Com|Number=Sing|Person=2	2	aux:neg	_	Translit=māṭṭāy|LTranslit=māṭṭu
+2	வர	வா	VERB	_	VerbForm=Inf	0	root	_	LTranslit=vā|Translit=vara
+3	மாட்டாய்	மாட்டு	AUX	_	Gender=Com|Number=Sing|Person=2	2	aux:neg	_	LTranslit=māṭṭu|Translit=māṭṭāy
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 103
@@ -1013,8 +1013,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	அவன்	அவன்	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	Translit=avaṉ|LTranslit=avaṉ
 2-3	வரமாட்டான்	_	_	_	_	_	_	_	Translit=varamāṭṭāṉ
-2	வர	வா	VERB	_	VerbForm=Inf	0	root	_	Translit=vara|LTranslit=vā
-3	மாட்டான்	மாட்டு	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg	2	aux:neg	_	Translit=māṭṭāṉ|LTranslit=māṭṭu
+2	வர	வா	VERB	_	VerbForm=Inf	0	root	_	LTranslit=vā|Translit=vara
+3	மாட்டான்	மாட்டு	AUX	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg	2	aux:neg	_	LTranslit=māṭṭu|Translit=māṭṭāṉ
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 104
@@ -1101,8 +1101,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=kumār|LTranslit=kumār
 2-3	பணமில்லாமல்	_	_	_	_	_	_	_	Translit=paṇamillāmal
-2	பணம்	பணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	Translit=paṇam|LTranslit=paṇam*check Lehmann book
-3	இல்லாமல்	இல்லாமல்	ADP	_	_	2	case	_	Translit=illāmal|LTranslit=illāmal
+2	பணம்	பணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	LTranslit=paṇam*check Lehmann book|Translit=paṇam
+3	இல்லாமல்	இல்லாமல்	ADP	_	_	2	case	_	LTranslit=illāmal|Translit=illāmal
 4	வந்தான்	வா	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=vantāṉ|LTranslit=vā
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
@@ -1218,8 +1218,8 @@
 2	சம்பளம்	சம்பளம்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=campaḷam|LTranslit=campaḷam
 3	போதாமல்	போது	VERB	_	Polarity=Neg|VerbForm=Conv	4	advcl	_	Translit=pōtāmal|LTranslit=pōtu
 4-5	கஷ்டப்படுகிறான்	_	_	_	_	_	_	_	Translit=kaṣṭappaṭukiṟāṉ
-4	கஷ்ட	கஷ்டம்	NOUN	_	Number=Sing|Person=3	0	root	_	Translit=kaṣṭap|LTranslit=kaṣṭam
-5	படுகிறான்	படு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	Translit=paṭukiṟāṉ|LTranslit=paṭu
+4	கஷ்ட	கஷ்டம்	NOUN	_	Number=Sing|Person=3	0	root	_	LTranslit=kaṣṭam|Translit=kaṣṭap
+5	படுகிறான்	படு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	LTranslit=paṭu|Translit=paṭukiṟāṉ
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 125
@@ -1809,8 +1809,8 @@
 # translit = ivviraṇṭu māṇavarkaḷum oru aṟaiyil taṅkukiṟārkaḷ .
 # source = A Grammar of Modern Tamil Grammar (Book)
 1-2	இவ்விரண்டு	_	_	_	_	_	_	_	Translit=ivviraṇṭu
-1	*இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta*discuss
-2	இரண்டு	இரண்டு	NUM	_	NumType=Card	3	nummod	_	Translit=iraṇṭu|LTranslit=iraṇṭu
+1	*இந்த	இந்த	DET	_	_	2	det	_	LTranslit=inta*discuss|Translit=inta
+2	இரண்டு	இரண்டு	NUM	_	NumType=Card	3	nummod	_	LTranslit=iraṇṭu|Translit=iraṇṭu
 3	மாணவர்களும்	மாணவர்	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	Translit=māṇavarkaḷum|LTranslit=māṇavar
 4	ஒரு	ஒன்று	NUM	_	_	5	nummod	_	Translit=oru|LTranslit=oṉṟu
 5	அறையில்	அறை	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:lmod	_	Translit=aṟaiyil|LTranslit=aṟai
@@ -2062,8 +2062,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=kumār|LTranslit=kumār
 2	சாதிக்	சாதி	NOUN	_	Case=Nom|Number=Sing|Person=3	3	amod	_	Translit=cātik|LTranslit=cāti
 3-4	கட்டுப்பாட்டுப்படி	_	_	_	_	_	_	_	Translit=kaṭṭuppāṭṭuppaṭi
-3	கட்டுப்பாட்டு	கட்டுப்பாடு	NOUN	_	Number=Sing|Person=3	5	obl	_	Translit=kaṭṭuppāṭṭu|LTranslit=kaṭṭuppāṭu
-4	படி	படி	ADP	_	AdpType=Post	3	case	_	Translit=paṭi|LTranslit=paṭi
+3	கட்டுப்பாட்டு	கட்டுப்பாடு	NOUN	_	Number=Sing|Person=3	5	obl	_	LTranslit=kaṭṭuppāṭu|Translit=kaṭṭuppāṭṭu
+4	படி	படி	ADP	_	AdpType=Post	3	case	_	LTranslit=paṭi|Translit=paṭi
 5	கல்யாணம்	கல்யாணம்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Translit=kalyāṇam|LTranslit=kalyāṇam
 6	செய்யவில்லை	செய்	VERB	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	5	compound:lvc	_	Translit=ceyyavillai|LTranslit=cey
 7	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
@@ -2419,8 +2419,8 @@
 1	அந்த	அந்த	DET	_	_	2	det	_	Translit=anta|LTranslit=anta
 2	வீட்டுக்கு	வீடு	NOUN	_	Case=Dat|Number=Sing|Person=3	7	obl	_	Translit=vīṭṭukku|LTranslit=vīṭu
 3-4	அடுத்தாற்போல	_	_	_	_	_	_	_	Translit=aṭuttāṟpōla
-3	அடுத்தால்	அடுத்து	ADP	_	AdpType=Post	1	case	_	Translit=aṭuttāl|LTranslit=aṭuttu
-4	போல	போல	ADP	_	_	2	fixed	_	Translit=pōla|LTranslit=pōla
+3	அடுத்தால்	அடுத்து	ADP	_	AdpType=Post	1	case	_	LTranslit=aṭuttu|Translit=aṭuttāl
+4	போல	போல	ADP	_	_	2	fixed	_	LTranslit=pōla|Translit=pōla
 5	ஒரு	ஒன்று	NUM	_	_	6	nummod	_	Translit=oru|LTranslit=oṉṟu
 6	கடை	கடை	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	Translit=kaṭai|LTranslit=kaṭai
 7	இருக்கிறது	இரு	VERB	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=irukkiṟatu|LTranslit=iru
@@ -2627,7 +2627,7 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	இந்த	இந்த	DET	_	_	2	det	_	Translit=inta|LTranslit=inta
 2	பெண்	பெண்	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=peṇ|LTranslit=peṇ
-3	அழகியவள்	அழகிய	ADJ	_	Gender=Fem|Number=Sing|Person=3	0	root	_	Translit=aḻakiyavaḷ|LTranslit=aḻakiya
+3	அழகியவள்	அழகிய	ADJ	_	Number=Sing|Person=3	0	root	_	Translit=aḻakiyavaḷ|LTranslit=aḻakiya
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 267
@@ -2790,8 +2790,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	பைத்தியக்காரனாக	பைத்தியக்காரன்	ADV	_	Number=Sing|Person=3	3	advmod	_	Translit=paittiyakkāraṉāka|LTranslit=paittiyakkāraṉ
 3-4	மாறிவிட்டான்	_	_	_	_	_	_	_	Translit=māṟiviṭṭāṉ
-3	மாறி	மாறு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=māṟi|LTranslit=māṟu
-4	விட்டான்	விடு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	Translit=viṭṭāṉ|LTranslit=viṭu
+3	மாறி	மாறு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=māṟu|Translit=māṟi
+4	விட்டான்	விடு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	LTranslit=viṭu|Translit=viṭṭāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 285
@@ -2840,8 +2840,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	சாயங்காலமாக	சாயங்காலம்	NOUN	_	Number=Sing|Person=3	3	obl:tmod	_	Translit=cāyaṅkālamāka|LTranslit=cāyaṅkālam
 3-4	போய்விட்டான்	_	_	_	_	_	_	_	Translit=pōyviṭṭāṉ
-3	போய்	போ	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=pōy|LTranslit=pō
-4	விட்டான்	விடு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	Translit=viṭṭāṉ|LTranslit=viṭu
+3	போய்	போ	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=pō|Translit=pōy
+4	விட்டான்	விடு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	LTranslit=viṭu|Translit=viṭṭāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 290
@@ -3274,7 +3274,7 @@
 5	அவனிடம்	அவன்	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	6	iobj	_	Translit=avaṉiṭam|LTranslit=avaṉ
 6-7	பேசமாட்டேன்	_	_	_	_	_	_	_	_
 6	பேச	பேசு	VERB	_	Gender=Com|Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
-7	மாட்டேன்	மாட்டு	AUX	_	Number=Sing|Person=1|Tense=Past	6	aux:neg	_	Translit=māṭṭēṉ|LTranslit=māṭṭu
+7	மாட்டேன்	மாட்டு	AUX	_	Number=Sing|Person=1|Tense=Past	6	aux:neg	_	LTranslit=māṭṭu|Translit=māṭṭēṉ
 8	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 335
@@ -4032,8 +4032,8 @@
 4	கொடுத்தால்	கொடு	VERB	_	VerbForm=Fin	6	advcl:cond	_	Translit=koṭuttāl|LTranslit=koṭu
 5	அது	அது	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	Translit=atu|LTranslit=atu
 6-7	சந்தோஷப்படுகிறது	_	_	_	_	_	_	_	Translit=cantōṣappaṭukiṟatu
-6	சந்தோஷ	சந்தோஷம்	NOUN	_	Number=Sing|Person=3	0	root	_	Translit=cantōṣa|LTranslit=cantōṣam
-7	படுகிறது	படு	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	6	aux	_	Translit=paṭukiṟatu|LTranslit=paṭu
+6	சந்தோஷ	சந்தோஷம்	NOUN	_	Number=Sing|Person=3	0	root	_	LTranslit=cantōṣam|Translit=cantōṣa
+7	படுகிறது	படு	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	6	aux	_	LTranslit=paṭu|Translit=paṭukiṟatu
 8	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 413
@@ -4079,8 +4079,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	தன்னை	தான்	PRON	_	Case=Acc|Gender=Com|Number=Sing	3	obj	_	Translit=taṉṉai|LTranslit=tāṉ
 3-4	அடித்துக்கொண்டான்	_	_	_	_	_	_	_	Translit=aṭittukkoṇṭāṉ
-3	அடித்து	அடி	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=aṭittu|LTranslit=aṭi
-4	கொண்டான்	கொள்	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	Translit=XX|LTranslit=YY
+3	அடித்து	அடி	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	LTranslit=aṭi|Translit=aṭittu
+4	கொண்டான்	கொள்	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	aux	_	LTranslit=YY|Translit=XX
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 418
@@ -4388,8 +4388,8 @@
 4	வட்டி	வட்டி	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Translit=vaṭṭi|LTranslit=vaṭṭi
 5	பெற்றுக்	பெறு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=peṟṟuk|LTranslit=peṟu
 6-7	கொண்டிருக்கிறது	_	_	_	_	_	_	_	Translit=koṇṭirukkiṟatu
-6	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	5	aux	_	Translit=koṇṭu|LTranslit=koḷ
-7	இருக்கிறது	இரு	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	5	aux	_	Translit=XX|LTranslit=YY
+6	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	5	aux	_	LTranslit=koḷ|Translit=koṇṭu
+7	இருக்கிறது	இரு	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	5	aux	_	LTranslit=YY|Translit=XX
 8	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 448
@@ -4501,8 +4501,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	இப்போது	இப்போது	ADV	_	_	3	obl	_	Translit=ippōtu|LTranslit=ippōtu
 3-4	வந்திருக்கிறான்	_	_	_	_	_	_	_	Translit=vantirukkiṟāṉ
-3	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=vantu|LTranslit=vā
-4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+3	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=vā|Translit=vantu
+4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 460
@@ -4550,8 +4550,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	Translit=kumār|LTranslit=kumār
 2-3	வந்திருக்கிறான்	_	_	_	_	_	_	_	Translit=vantirukkiṟāṉ
-2	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=vantu|LTranslit=vā
-3	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	2	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+2	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=vā|Translit=vantu
+3	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	2	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 465
@@ -4561,8 +4561,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	வேகமாக	வேகமாக	ADV	_	_	3	advmod	_	Translit=vēkamāka|LTranslit=vēkamāka
 3-4	வந்திருக்கிறான்	_	_	_	_	_	_	_	Translit=vantirukkiṟāṉ
-3	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=vantu|LTranslit=vā
-4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+3	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=vā|Translit=vantu
+4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 466
@@ -4582,8 +4582,8 @@
 2	ஒரு	ஒன்று	NUM	_	_	3	nummod	_	Translit=oru|LTranslit=oṉṟu
 3	புத்தகம்	புத்தகம்	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	Translit=puttakam|LTranslit=puttakam
 4-5	படித்திருக்கிறான்	_	_	_	_	_	_	_	Translit=paṭittirukkiṟāṉ
-4	படித்து	படி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=paṭittu|LTranslit=paṭi
-5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+4	படித்து	படி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=paṭi|Translit=paṭittu
+5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 468
@@ -4624,8 +4624,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	மதுரைக்கு	மதுரை	NOUN	_	Case=Dat|Number=Sing|Person=3	3	obl	_	Translit=maturaikku|LTranslit=maturai
 3-4	போயிருக்கிறான்	_	_	_	_	_	_	_	Translit=pōyirukkiṟāṉ
-3	போய்	போ	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=pōy|LTranslit=pō
-4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+3	போய்	போ	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=pō|Translit=pōy
+4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 472
@@ -4637,8 +4637,8 @@
 3	அந்த	அந்த	DET	_	_	4	det	_	Translit=anta|LTranslit=anta
 4	கடிதத்தை	கடிதம்	NOUN	_	Case=Acc|Number=Sing|Person=3	5	obj	_	Translit=kaṭitattai|LTranslit=kaṭitam
 5-6	எழுதியிருந்தான்	_	_	_	_	_	_	_	Translit=eḻutiyiruntāṉ
-5	எழுதி	எழுது	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=eḻuti|LTranslit=eḻutu
-6	இருந்தான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	5	aux	_	Translit=iruntāṉ|LTranslit=iru
+5	எழுதி	எழுது	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=eḻutu|Translit=eḻuti
+6	இருந்தான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	5	aux	_	LTranslit=iru|Translit=iruntāṉ
 7	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 473
@@ -4651,8 +4651,8 @@
 4	ஆயிரம்	ஆயிரம்	NUM	_	Case=Nom	5	nummod	_	Translit=āyiram|LTranslit=āyiram
 5	ரூபாய்	ரூபாய்	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	Translit=rūpāy|LTranslit=rūpāy
 6-7	சம்பாதித்திருப்பான்	_	_	_	_	_	_	_	Translit=campātittiruppāṉ
-6	சம்பாதித்து	சம்பாதி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=campātittu|LTranslit=campāti
-7	இருப்பான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Fut	6	aux	_	Translit=iruppāṉ|LTranslit=iru
+6	சம்பாதித்து	சம்பாதி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=campāti|Translit=campātittu
+7	இருப்பான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Fut	6	aux	_	LTranslit=iru|Translit=iruppāṉ
 8	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 474
@@ -4662,8 +4662,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	நாற்காலியில்	நாற்காலி	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl	_	Translit=nāṟkāliyil|LTranslit=nāṟkāli
 3-4	உட்கார்ந்திருக்கிறான்	_	_	_	_	_	_	_	Translit=uṭkārntirukkiṟāṉ
-3	உட்கார்ந்து	உட்கார்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=uṭkārntu|LTranslit=uṭkār
-4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+3	உட்கார்ந்து	உட்கார்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=uṭkār|Translit=uṭkārntu
+4	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 475
@@ -4674,8 +4674,8 @@
 2	எங்கள்	எங்கள்	PRON	_	Case=Gen|Gender=Com|Number=Plur|Person=1	3	nmod:poss	_	Translit=eṅkaḷ|LTranslit=eṅkaḷ
 3	வீட்டில்	வீடு	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl:lmod	_	Translit=vīṭṭil|LTranslit=vīṭu
 4-5	தங்கியிருக்கிறான்	_	_	_	_	_	_	_	Translit=taṅkiyirukkiṟāṉ
-4	தங்கி	தங்கு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=taṅki|LTranslit=taṅku
-5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+4	தங்கி	தங்கு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=taṅku|Translit=taṅki
+5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 476
@@ -4686,8 +4686,8 @@
 2	நேற்று	நேற்று	ADV	_	Case=Nom|Number=Sing|Person=3	4	advmod	_	Translit=nēṟṟu|LTranslit=nēṟṟu
 3	வீட்டுக்கு	வீடு	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl	_	Translit=vīṭṭukku|LTranslit=vīṭu
 4-5	வந்திருக்கிறார்	_	_	_	_	_	_	_	Translit=vantirukkiṟār
-4	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=vantu|LTranslit=vā
-5	இருக்கிறார்	இரு	AUX	_	Gender=Com|Number=Sing|Person=3|Polite=Form|Tense=Pres	4	aux	_	Translit=irukkiṟār|LTranslit=iru
+4	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=vā|Translit=vantu
+5	இருக்கிறார்	இரு	AUX	_	Gender=Com|Number=Sing|Person=3|Polite=Form|Tense=Pres	4	aux	_	LTranslit=iru|Translit=irukkiṟār
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 477
@@ -4731,9 +4731,9 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	திண்ணையில்	திண்ணை	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=tiṇṇaiyil|LTranslit=tiṇṇai
 3-5	உட்கார்ந்துகொண்டிருக்கிறான்	_	_	_	_	_	_	_	Translit=uṭkārntukoṇṭirukkiṟāṉ
-3	உட்கார்ந்து	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=uṭkārntu|LTranslit=koḷ
-4	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	3	aux	_	Translit=koṇṭu|LTranslit=koḷ
-5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=irukkiṟāṉ|LTranslit=iru
+3	உட்கார்ந்து	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=koḷ|Translit=uṭkārntu
+4	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	3	aux	_	LTranslit=koḷ|Translit=koṇṭu
+5	இருக்கிறான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	LTranslit=iru|Translit=irukkiṟāṉ
 6	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 481
@@ -4744,9 +4744,9 @@
 2	மணிக்கு	மணி	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl:tmod	_	Translit=maṇikku|LTranslit=maṇi
 3	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=kumār|LTranslit=kumār
 4-6	படித்துக்கொண்டிருந்தான்	_	_	_	_	_	_	_	Translit=paṭittukkoṇṭiruntāṉ
-4	படித்து	படி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=paṭittu|LTranslit=paṭi
-5	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	4	aux	_	Translit=koṇṭu|LTranslit=koḷ
-6	இருந்தான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	4	aux	_	Translit=iruntāṉ|LTranslit=iru
+4	படித்து	படி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=paṭi|Translit=paṭittu
+5	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	4	aux	_	LTranslit=koḷ|Translit=koṇṭu
+6	இருந்தான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	4	aux	_	LTranslit=iru|Translit=iruntāṉ
 7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 482
@@ -4757,8 +4757,8 @@
 2	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=kumār|LTranslit=kumār
 3	கூட்டத்தில்	கூட்டம்	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	Translit=kūṭṭattil|LTranslit=kūṭṭam
 4-5	பேசிக்கொண்டிருப்பான்	_	_	_	_	_	_	_	Translit=pēcikkoṇṭiruppāṉ
-4	பேசிக்கொண்டு	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=pēcikkoṇṭu|LTranslit=koḷ
-5	இருப்பான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Fut	4	aux	_	Translit=iruppāṉ|LTranslit=iru
+4	பேசிக்கொண்டு	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=koḷ|Translit=pēcikkoṇṭu
+5	இருப்பான்	இரு	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Fut	4	aux	_	LTranslit=iru|Translit=iruppāṉ
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 483
@@ -4768,8 +4768,8 @@
 1	மாணவர்கள்	மாணவர்	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	Translit=māṇavarkaḷ|LTranslit=māṇavar
 2	வகுப்பில்	வகுப்பு	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:lmod	_	Translit=vakuppil|LTranslit=vakuppu
 3-4	பேசிக்கொண்டேயிருப்பார்கள்	_	_	_	_	_	_	_	Translit=pēcikkoṇṭēyiruppārkaḷ
-3	பேசிக்கொண்டே	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=pēcikkoṇṭē|LTranslit=koḷ
-4	இருப்பார்கள்	இரு	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Fut	3	aux	_	Translit=iruppārkaḷ|LTranslit=iru
+3	பேசிக்கொண்டே	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=koḷ|Translit=pēcikkoṇṭē
+4	இருப்பார்கள்	இரு	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Fut	3	aux	_	LTranslit=iru|Translit=iruppārkaḷ
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 484
@@ -4783,9 +4783,9 @@
 5	மேலே	மேலே	ADP	_	AdpType=Post	4	case	_	Translit=mēlē|LTranslit=mēlē
 6	கதைகளை	கதை	NOUN	_	Case=Acc|Number=Plur	7	obj	_	Translit=kataikaḷai|LTranslit=katai
 7-9	சொல்லிக்கொண்டுவந்தார்	_	_	_	_	_	_	_	Translit=collikkoṇṭuvantār
-7	சொல்லி	சொல்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=collik|LTranslit=col
-8	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	7	aux	_	Translit=koṇṭu|LTranslit=koḷ
-9	வந்தார்	வா	AUX	_	Gender=Com|Number=Sing|Person=3|Polite=Form|Tense=Past	7	aux	_	Translit=vantār|LTranslit=vā
+7	சொல்லி	சொல்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=col|Translit=collik
+8	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	7	aux	_	LTranslit=koḷ|Translit=koṇṭu
+9	வந்தார்	வா	AUX	_	Gender=Com|Number=Sing|Person=3|Polite=Form|Tense=Past	7	aux	_	LTranslit=vā|Translit=vantār
 10	.	.	PUNCT	_	PunctType=Peri	7	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 485
@@ -4794,8 +4794,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	விலை	விலை	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	Translit=vilai|LTranslit=vilai
 2-3	ஏறிக்கொண்டுவரும்	_	_	_	_	_	_	_	Translit=ēṟikkoṇṭuvarum
-2	ஏறிக்கொண்டு	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=ēṟikkoṇṭu|LTranslit=koḷ
-3	வரும்	வா	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	2	aux	_	Translit=varum|LTranslit=vā
+2	ஏறிக்கொண்டு	கொள்	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=koḷ|Translit=ēṟikkoṇṭu
+3	வரும்	வா	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	2	aux	_	LTranslit=vā|Translit=varum
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 486
@@ -4808,9 +4808,9 @@
 4	விறகால்	விறகு	NOUN	_	Case=Ins|Number=Sing|Person=3	5	obl:inst	_	Translit=viṟakāl|LTranslit=viṟaku
 5	சமையல்	சமையல்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Translit=camaiyal|LTranslit=camaiyal
 6-8	செய்துகொண்டுவந்தார்கள்	_	_	_	_	_	_	_	Translit=ceytukoṇṭuvantārkaḷ
-6	செய்து	செய்	VERB	_	Polarity=Pos|VerbForm=Conv	5	compound:lvc	_	Translit=ceytu|LTranslit=cey
-7	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	6	aux	_	Translit=koṇṭu|LTranslit=koḷ
-8	வந்தார்கள்	வா	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Past	6	aux	_	Translit=vantārkaḷ|LTranslit=vā
+6	செய்து	செய்	VERB	_	Polarity=Pos|VerbForm=Conv	5	compound:lvc	_	LTranslit=cey|Translit=ceytu
+7	கொண்டு	கொள்	AUX	_	Polarity=Pos|VerbForm=Conv	6	aux	_	LTranslit=koḷ|Translit=koṇṭu
+8	வந்தார்கள்	வா	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Past	6	aux	_	LTranslit=vā|Translit=vantārkaḷ
 9	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 487
@@ -4823,8 +4823,8 @@
 4	விறகால்	விறகு	NOUN	_	Case=Ins|Number=Sing|Person=3	5	obl:inst	_	Translit=viṟakāl|LTranslit=viṟaku
 5	சமையல்	சமையல்	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Translit=camaiyal|LTranslit=camaiyal
 6-7	செய்துவந்தார்கள்	_	_	_	_	_	_	_	Translit=ceytuvantārkaḷ
-6	செய்து	செய்	VERB	_	Polarity=Pos|VerbForm=Conv	5	compound:lvc	_	Translit=ceytu|LTranslit=cey
-7	வந்தார்கள்	வா	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Past	6	aux	_	Translit=vantārkaḷ|LTranslit=vā
+6	செய்து	செய்	VERB	_	Polarity=Pos|VerbForm=Conv	5	compound:lvc	_	LTranslit=cey|Translit=ceytu
+7	வந்தார்கள்	வா	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Past	6	aux	_	LTranslit=vā|Translit=vantārkaḷ
 8	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 488
@@ -4837,9 +4837,9 @@
 4	அடிக்கடி	அடிக்கடி	ADV	_	_	6	advmod	_	Translit=aṭikkaṭi|LTranslit=aṭikkaṭi
 5	வானொலியில்	வானொலி	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl	_	Translit=vāṉoliyil|LTranslit=vāṉoli
 6-8	பாடிக்கொண்டேவந்தேன்	_	_	_	_	_	_	_	Translit=pāṭikkoṇṭēvantēṉ
-6	பாடி	பாடு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=pāṭik|LTranslit=pāṭi
-7	கொண்டே	கொள்	AUX	_	_	6	aux	_	Translit=koṇṭē|LTranslit=koḷ
-8	வந்தேன்	வா	AUX	_	Gender=Com|Number=Sing|Person=1|Tense=Past	6	aux	_	Translit=vantēṉ|LTranslit=vā
+6	பாடி	பாடு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=pāṭi|Translit=pāṭik
+7	கொண்டே	கொள்	AUX	_	_	6	aux	_	LTranslit=koḷ|Translit=koṇṭē
+8	வந்தேன்	வா	AUX	_	Gender=Com|Number=Sing|Person=1|Tense=Past	6	aux	_	LTranslit=vā|Translit=vantēṉ
 9	.	.	PUNCT	_	PunctType=Peri	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 489
@@ -4898,8 +4898,8 @@
 # source = A Grammar of Modern Tamil Grammar (Book)
 1	பால்க்காரன்	பால்க்காரன்	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	Translit=pālkkāraṉ|LTranslit=pālkkāraṉ
 2-3	வந்தாயிற்று	_	_	_	_	_	_	_	Translit=vantāyiṟṟu
-2	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=vantu|LTranslit=vā
-3	ஆயிற்று	ஆகு	AUX	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	2	aux	_	Translit=āyiṟṟu|LTranslit=āku
+2	வந்து	வா	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=vā|Translit=vantu
+3	ஆயிற்று	ஆகு	AUX	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	2	aux	_	LTranslit=āku|Translit=āyiṟṟu
 4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 495
@@ -4909,8 +4909,8 @@
 1	குமார்	குமார்	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=kumār|LTranslit=kumār
 2	வாடகை	வாடகை	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obj	_	Translit=vāṭakai|LTranslit=vāṭakai
 3-4	கொடுத்தாயிற்று	_	_	_	_	_	_	_	Translit=koṭuttāyiṟṟu
-3	கொடுத்து	கொடு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	Translit=koṭuttu|LTranslit=koṭu
-4	ஆயிற்று	ஆகு	AUX	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	3	aux	_	Translit=āyiṟṟu|LTranslit=āku
+3	கொடுத்து	கொடு	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	_	LTranslit=koṭu|Translit=koṭuttu
+4	ஆயிற்று	ஆகு	AUX	_	Gender=Neut|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	3	aux	_	LTranslit=āku|Translit=āyiṟṟu
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 496
@@ -4987,8 +4987,8 @@
 3	கூட்டத்தில்	கூட்டம்	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	Translit=kūṭṭattil|LTranslit=kūṭṭam
 4	பேச	பேசு	VERB	_	VerbForm=Inf	0	root	_	Translit=pēca|LTranslit=pēcu
 5-6	வேண்டிவரும்	_	_	_	_	_	_	_	Translit=vēṇṭivarum
-5	வேண்டி	வேண்டு	AUX	_	VerbForm=Conv	4	aux	_	Translit=vēṇṭi|LTranslit=vēṇṭu
-6	வரும்	வா	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	4	aux	_	Translit=varum|LTranslit=vā
+5	வேண்டி	வேண்டு	AUX	_	VerbForm=Conv	4	aux	_	LTranslit=vēṇṭu|Translit=vēṇṭi
+6	வரும்	வா	AUX	_	Gender=Com|Number=Sing|Person=3|Tense=Fut	4	aux	_	LTranslit=vā|Translit=varum
 7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = 503
