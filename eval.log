@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Tamil-MWTT:
-commit 566fbb2b297a8fded3af83e11a7faeecc94ead59
+commit 168550adb1fba1b69f7e6e7f429ef3884e6fa4ce
+Merge: 8381cde 70c4baa
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 12:41:09 2022 +0100
 Size: counted 2584 of 2584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.89867717184071.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,7 +26,9 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 2584 w
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ta --max-err=10 UD_Tamil-MWTT/ta_mwtt-ud-test.conllu
 [Line 1219 Sent 124 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2420 Sent 246 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'வீட்டுக்கு * போல'
 Syntax errors: 1
+Warnings: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 Validity: 0.01
