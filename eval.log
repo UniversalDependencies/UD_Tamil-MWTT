@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Tamil-MWTT:
-commit 168550adb1fba1b69f7e6e7f429ef3884e6fa4ce
-Merge: 8381cde 70c4baa
+commit 0306e588eecf9f2e31aa267848a21b23b6d07261
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:08:39 2023 +0100
 Size: counted 2584 of 2584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.89867717184071.
 Size: maximum value 13.815511 is for 1000000 words or more.
