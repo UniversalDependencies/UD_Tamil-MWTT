@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Tamil-MWTT:
-commit e9277f5ed7ef3d29dc09b8d7a1e9340ed384aed8
+commit 0b1960e272c769f21f6c35f8835bdcca1b8157eb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:34:26 2024 +0200
+Date:   Mon Nov 11 16:44:06 2024 +0100
 Size: counted 2584 of 2584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.89867717184071.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,23 +23,25 @@ Udapi:
                TOTAL        645
 Udapi: found 645 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 2584 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ta --max-err=10 UD_Tamil-MWTT/ta_mwtt-ud-test.conllu
 [Line 1219 Sent 124 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2408 Sent 245 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'எதிர்த்தார் போல' does not have the 'ExtPos' feature
+[Line 2420 Sent 246 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'வீட்டுக்கு போல' does not have the 'ExtPos' feature
 [Line 2420 Sent 246 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'வீட்டுக்கு * போல'
 Syntax errors: 1
-Warnings: 1
+Warnings: 3
 *** FAILED *** with 1 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.137430836441016) = 0.0352386760105168
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.611764705882353) = 0.0470588235294118
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.475675675675676) = 0.0365904365904366
-(TOTAL score=0.25007948967486) * (availability=1) * (validity=0.01) = 0.0025007948967486
+(TOTAL score=0.249828107070536) * (availability=1) * (validity=0.01) = 0.00249828107070536
 STARS = 0
-UD_Tamil-MWTT	0.0025007948967486	0
+UD_Tamil-MWTT	0.00249828107070536	0
