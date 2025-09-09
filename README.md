@@ -34,6 +34,7 @@ Lehmann, T. (1993). A grammar of modern Tamil. Pondicherry Institute of Linguist
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
