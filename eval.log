@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Tamil-MWTT:
-commit 0b1960e272c769f21f6c35f8835bdcca1b8157eb
+commit 73aa29400f54f0d3143cd8ccd9827e24b10f8d59
+Merge: ab9fc23 ade419e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:44:06 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ta_mwtt'
+Language code (from CoNLL-U file name) = 'ta'
+Found the following data files: ta_mwtt-ud-test.conllu
 Size: counted 2584 of 2584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.89867717184071.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,29 +23,33 @@ Features: 2278 out of 2584 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 22 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL        645
-Udapi: found 645 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 2584 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ta --max-err=10 UD_Tamil-MWTT/ta_mwtt-ud-test.conllu
-[Line 1219 Sent 124 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 2408 Sent 245 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'எதிர்த்தார் போல' does not have the 'ExtPos' feature
-[Line 2420 Sent 246 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'வீட்டுக்கு போல' does not have the 'ExtPos' feature
-[Line 2420 Sent 246 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'வீட்டுக்கு * போல'
-Syntax errors: 1
-Warnings: 3
-*** FAILED *** with 1 errors
+[Line 126 Sent 14]: [L3 Warning pron-det-without-prontype] The word 'இந்த inta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 376 Sent 39]: [L3 Warning pron-det-without-prontype] The word 'இவன் ivaṉ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 404 Sent 42]: [L3 Warning pron-det-without-prontype] The word 'தன் taṉ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 436 Sent 45]: [L3 Warning pron-det-without-prontype] The word 'தன் taṉ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 451 Sent 46]: [L3 Warning pron-det-without-prontype] The word 'இந்தப் intap' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 482 Sent 49]: [L3 Warning pron-det-without-prontype] The word 'இந்த inta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 493 Sent 50]: [L3 Warning pron-det-without-prontype] The word 'தன் taṉ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 545 Sent 55]: [L3 Warning pron-det-without-prontype] The word 'எங்கள் XX' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 634 Sent 64]: [L3 Warning pron-det-without-prontype] The word 'எல்லோரும் ellōrum' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 690 Sent 70]: [L3 Warning pron-det-without-prontype] The word 'அவனுடைய avaṉuṭaiya' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 1603 Sent 167]: [L3 Syntax too-many-objects] Multiple direct objects [1, 2] ('புத்தகங்கள் puttakaṅkaḷ', 'சிலவற்றை cilavaṟṟai') under the predicate 'வாங்கினேன் vāṅkiṉēṉ'.
+[Line 1612 Sent 168]: [L3 Syntax too-many-objects] Multiple direct objects [1, 2] ('புத்தகங்கள் puttakaṅkaḷ', 'பலவற்றை palavaṟṟai') under the predicate 'வாங்கினேன் vāṅkiṉēṉ'.
+Syntax errors: 2
+Warnings: 208
+*** FAILED *** with 2 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.137430836441016) = 0.0352386760105168
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.611764705882353) = 0.0470588235294118
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.475675675675676) = 0.0365904365904366
-(TOTAL score=0.249828107070536) * (availability=1) * (validity=0.01) = 0.00249828107070536
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.137430836441016) = 0.0509003097929687
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.611764705882353) = 0.0679738562091503
+(weight=0.111111111111111) * (score{udeprels}=0.475675675675676) = 0.0528528528528528
+(TOTAL score=0.356418376879663) * (availability=1) * (validity=0.01) = 0.00356418376879663
 STARS = 0
-UD_Tamil-MWTT	0.00249828107070536	0
+UD_Tamil-MWTT	0.00356418376879663	0
