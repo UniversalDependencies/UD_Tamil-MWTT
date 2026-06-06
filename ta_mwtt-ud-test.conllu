@@ -1598,7 +1598,7 @@
 # text = புத்தகங்கள் சிலவற்றை வாங்கினேன் .
 # translit = puttakaṅkaḷ cilavaṟṟai vāṅkiṉēṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	புத்தகங்கள்	புத்தகம்	NOUN	_	Case=Nom|Number=Plur	3	obj	_	Translit=puttakaṅkaḷ|LTranslit=puttakam
+1	புத்தகங்கள்	புத்தகம்	NOUN	_	Case=Nom|Number=Plur	2	nmod	_	Translit=puttakaṅkaḷ|LTranslit=puttakam
 2	சிலவற்றை	சில	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Ind	3	obj	_	Translit=cilavaṟṟai|LTranslit=cila
 3	வாங்கினேன்	வாங்கு	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Past	0	root	_	Translit=vāṅkiṉēṉ|LTranslit=vāṅku
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
@@ -1607,7 +1607,7 @@
 # text = புத்தகங்கள் பலவற்றை வாங்கினேன் .
 # translit = puttakaṅkaḷ palavaṟṟai vāṅkiṉēṉ .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	புத்தகங்கள்	புத்தகம்	NOUN	_	Case=Nom|Number=Plur	3	obj	_	Translit=puttakaṅkaḷ|LTranslit=puttakam
+1	புத்தகங்கள்	புத்தகம்	NOUN	_	Case=Nom|Number=Plur	2	nmod	_	Translit=puttakaṅkaḷ|LTranslit=puttakam
 2	பலவற்றை	பல	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Ind	3	obj	_	Translit=palavaṟṟai|LTranslit=pala*morph
 3	வாங்கினேன்	வாங்கு	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Past	0	root	_	Translit=vāṅkiṉēṉ|LTranslit=vāṅku
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	Translit=.|LTranslit=.
