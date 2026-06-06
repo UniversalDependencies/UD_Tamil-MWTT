@@ -5193,7 +5193,7 @@
 # text = இப்போது மழை பெய்ய போகிறது .
 # translit = ippōtu maḻai peyya pōkiṟatu .
 # source = A Grammar of Modern Tamil Grammar (Book)
-1	இப்போது	இப்போது	ADV	_	_	2	obl:tmod	_	Translit=ippōtu|LTranslit=ippōtu
+1	இப்போது	இப்போது	ADV	_	_	3	obl:tmod	_	Translit=ippōtu|LTranslit=ippōtu
 2	மழை	மழை	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=maḻai|LTranslit=maḻai
 3	பெய்ய	பெய்	VERB	_	VerbForm=Inf	0	root	_	Translit=peyya|LTranslit=pey
 4	போகிறது	போ	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=pōkiṟatu|LTranslit=pō
