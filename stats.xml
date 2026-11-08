@@ -95,13 +95,13 @@
     <dep name="fixed">2</dep>
     <dep name="iobj">27</dep>
     <dep name="mark">1</dep>
-    <dep name="nmod">11</dep>
+    <dep name="nmod">13</dep>
     <dep name="nmod:poss">28</dep>
     <dep name="nsubj">437</dep>
     <dep name="nsubj:nc">46</dep>
     <dep name="nsubj:pass">4</dep>
     <dep name="nummod">97</dep>
-    <dep name="obj">183</dep>
+    <dep name="obj">181</dep>
     <dep name="obl">129</dep>
     <dep name="obl:agent">2</dep>
     <dep name="obl:arg">1</dep>
