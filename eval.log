@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Tamil-MWTT:
-commit aeb7e4ae69a064ee59fb48291a5c8771c4600c83
+commit 8066ff53f217c9e039aa81d33532affb9c17c3b0
+Merge: 67622d9 54d28a5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:55:38 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ta_mwtt'
 Language code (from CoNLL-U file name) = 'ta'
@@ -36,17 +36,12 @@ Genres: found 1 out of 18 known.
 [Line 634 Sent 64]: [L3 WARNING pron-det-without-prontype] The word 'எல்லோரும் ellōrum' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 690 Sent 70]: [L3 WARNING pron-det-without-prontype] The word 'அவனுடைய avaṉuṭaiya' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
-[Line 1603 Sent 167]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 2] ('புத்தகங்கள் puttakaṅkaḷ', 'சிலவற்றை cilavaṟṟai') under the predicate 'வாங்கினேன் vāṅkiṉēṉ'.
-[Line 1612 Sent 168]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 2] ('புத்தகங்கள் puttakaṅkaḷ', 'பலவற்றை palavaṟṟai') under the predicate 'வாங்கினேன் vāṅkiṉēṉ'.
 [Line 2409 Sent 245]: [L3 WARNING fixed-without-extpos] Fixed expression 'எதிர்த்தார் போல' does not have the 'ExtPos' feature
 [Line 2421 Sent 246]: [L3 WARNING fixed-without-extpos] Fixed expression 'வீட்டுக்கு போல' does not have the 'ExtPos' feature
 [Line 2421 Sent 246]: [L3 WARNING fixed-gap] Gaps in fixed expression [2, 4] 'வீட்டுக்கு * போல'
-[Line 5196 Sent 523]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'மழை maḻai') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 Warnings: 207
-SYNTAX errors: 3
-*** FAILED *** with 3 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
@@ -54,6 +49,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.611764705882353) = 0.0679738562091503
 (weight=0.111111111111111) * (score{udeprels}=0.475675675675676) = 0.0528528528528528
-(TOTAL score=0.356418376879663) * (availability=1) * (validity=0.01) = 0.00356418376879663
-STARS = 0
-UD_Tamil-MWTT	0.00356418376879663	0
+(TOTAL score=0.356418376879663) * (availability=1) * (validity=1) = 0.356418376879663
+STARS = 2
+UD_Tamil-MWTT	0.356418376879663	2
